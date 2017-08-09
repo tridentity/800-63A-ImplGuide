@@ -42,7 +42,7 @@ CSP’s should take care to check for uniqueness during registration. Fuzzy matc
 
 Fuzzy matching is effective only when the degree of confidence in the inexact match of a single attribute can be supported by the matching of additional attributes that belong to the same identity. The following table can be used as a guideline for CSP’s to consider when using fuzzy matching to resolve identities. As an example if two of the attributes listed below have a confidence score of 95% and the third is at 100%, the total confidence level is just over 90%; if all three are at 95% overall confidence falls to 86% and if all three are above 98.5% overall confidence exceeds 95.5%.
 
-<tr><td>**Attribute**</td><td>**Check**</td><td>**Rule**</td></tr>
+<tr><th>**Attribute**</th><th>**Check**</th><th>**Rule**</th></tr>
 <tr><td><table><tr><td></td><td></td></tr><tr><td></td><td></td></tr><tr><td></td><td></td></tr></table></td><td>Multiply scores, compare to 90%.</td></tr>/table>
 
 | **Attribute** | **Check** | **Rule** |
