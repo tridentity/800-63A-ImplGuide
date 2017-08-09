@@ -1,4 +1,4 @@
-## 1.1    Purpose
+## 2.1    Purpose
 
 NIST Special Publication 800-63-A Digital Authentication Guideline: Enrollment and Identity Proofing (SP 800-63 or NIST SP 800-63A) provides detailed requirements for enrollment and identity proofing of individuals with which federal identity management systems are expected to comply.
 
@@ -11,7 +11,7 @@ Ultimately, these publications support the overall vision of NIST SP 800-63-3 by
 
 The material contained in this document is intended to be illustrative rather than prescriptive, and does not supersede the requirements stated in the core NIST SP 800-63-3 Digital Authentication Guideline. 
 
-## 1.2    Identity Proofing
+## 2.2    Identity Proofing
 
 Identity proofing is the process by which a Credential Service Provider (CSP) collects and verifies information about a person for the purpose of issuing credentials to that person. Processes implemented, illustrated in Figure 1 and consistent with the requirements in NIST SP 800-63-3, are intended to help agencies achieve the following objectives:
 
