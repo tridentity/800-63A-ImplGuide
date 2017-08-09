@@ -50,7 +50,7 @@ Fuzzy matching is effective only when the degree of confidence in the inexact ma
 </tbody></table></td>
 <td><table><tbody>
 <tr><th>Rule</th></tr>
-<tr><td>>Multiply scores, compare to 90%.</td></tr>
+<tr><td>Multiply scores, compare to 90%.</td></tr>
 </tbody></table></td>
 <tr></tbody><table>
 
