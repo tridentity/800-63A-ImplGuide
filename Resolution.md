@@ -45,9 +45,9 @@ Fuzzy matching is effective only when the degree of confidence in the inexact ma
 | **Attribute** | **Check** | **Rule** |
 | --- | --- | --- |
 | | Name | | Date of Birth | | Current Address | |
-| | <nl><li>Align all fields.<li>Match with replacements, abbreviations.<li>Produce overall score as %.</nl> |
-  | <nl><li>Check using correct order.<li>Check using wrong order.<li>Produce overall score as %.</nl> |
-  | <nl><li>Standardize address.<li>Match.<liProduce scores as %. | |
+| | <ol><li>Align all fields.<li>Match with replacements, abbreviations.<li>Produce overall score as %.</ol> |
+  | <ol><li>Check using correct order.<li>Check using wrong order.<li>Produce overall score as %.</ol> |
+  | <ol><li>Standardize address.<li>Match.<li>Produce scores as %. </ol>| |
 | Multiply scores, compare to 90%. |
 
 **Table 4:** Fuzzy Matching of Attributes Using Name, Date of Birth and Current Address
