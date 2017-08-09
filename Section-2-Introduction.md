@@ -21,4 +21,5 @@ Identity proofing is the process by which a Credential Service Provider (CSP) co
 - Verify that the claimed identity is associated with the real person supplying the identity evidence.
   
 ![Figure 1: Individual Identity Proofing Journey](https://github.com/usnistgov/800-63A-ImplGuide/blob/bsahin-draft/figure-1-individual-identity-proofing-journey.png)
+
 Figure 1: Individual Identity Proofing Journey
