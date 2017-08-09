@@ -112,8 +112,8 @@ If the applicant fails to return or fails to complete KBV upon return, KBV shoul
 To calculate the KBV score for the applicant’s answers to a series of questions, let us use the scoring table shown in Table 6.
 
 <table><tbody>
-<tr><th>KBV Quality</th><th colspan=2>Unprompted</th><th colspan=2>Prompted</th><tr>
-<tr><td></td><td>Success</td><td>Failure</td><td>Success</td><td>Failure</td></tr>
+<tr><th rowspan=2>KBV Quality</th><th colspan=2>Unprompted</th><th colspan=2>Prompted</th><tr>
+<tr><td>Success</td><td>Failure</td><td>Success</td><td>Failure</td></tr>
 <tr><td><strong>Low</strong></td><td>2</td><td>-5</td><td>1</td><td>-6</td></tr>
 <tr><td><strong>Medium</strong></td><td>4</td><td>-4</td><td>3</td><td>-5</td></tr>
 <tr><td><strong>High</strong></td><td>6</td><td>-3</td><td>5</td><td>-4</td></tr>
@@ -124,8 +124,8 @@ To calculate the KBV score for the applicant’s answers to a series of question
 If the CSP keeps separate updated totals of all successful and all failed answers through the KBV process, they can use the following table to deem the user to pass KBV if they achieve a success total score for either of the three scenarios in Table 7 before achieving a failure score seen in the rightmost column of the table for the selected IAL. 
 
 <table><tbody>
-<tr><th>IAL</th><th colspan=3>Success Total</th><th>Failure Total</th><tr>
-<tr><td></td><td>1st Attempt</td><td>1st Resume</td><td>2nd Resume</td><td></td></tr>
+<tr><th rowspan=2>IAL</th><th colspan=3>Success Total</th><th rowspan=2>Failure Total</th><tr>
+<tr><td>1st Attempt</td><td>1st Resume</td><td>2nd Resume</td></tr>
 <tr><td><strong>2</strong></td><td>8</td><td>11</td><td>15</td><td>-8</td></tr>
 <tr><td><strong>3</strong></td><td>18</td><td>21</td><td>24</td><td>-9</td></tr>
 </tbody></table>
