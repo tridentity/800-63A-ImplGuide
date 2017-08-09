@@ -43,7 +43,7 @@ For IAL3:
 - Attributes must be verified by an authorized and trained representative of the CSP
 - CSPs may assert attributes to RPs for verification in support of pseudonymous identity
 
-| *[**Case Example: IAL Selection without Proofing**]*|
+| ***Case Example: IAL Selection without Proofing***|
 | --- |
 | A free secure messaging service provider offers desktop and smartphone application versions of a product that allows users to send one another encrypted messages via the internet. Users are registered by providing a first and a last name and selecting a unique user name that is connected to an email address through which registration has to be confirmed and account management is done. Secure authentication is done via user name and a custom password.
 
@@ -68,18 +68,10 @@ Table 2 provides examples of evidence from each category of strength defined in 
 | **Strength** | **Examples** |
 | --- | --- |
 | Unacceptable | Library Cards |
-| Weak | Organizational Membership Cards
-Birth Certificate
-Social Security Card |
-| Fair | Individual Tax Number
-Credit or Debit Card
-Bank Account Statement
-Utility Account Statement |
-| Strong | Real ID Driver’s License
-State ID |
-| Superior | FIPS 201 Compliant Personal Identification Verification Card (PIV, PIV-I, and CAC)
-National Passports
-Enhanced Driver’s License or Identification |
+| Weak | Organizational Membership Cards\br Birth Certificate\br Social Security Card |
+| Fair | Individual Tax Number\br Credit or Debit Card\br Bank Account Statement\br Utility Account Statement |
+| Strong | Real ID Driver’s License\br State ID |
+| Superior | FIPS 201 Compliant Personal Identification Verification Card (PIV, PIV-I, and CAC)\br National Passports\br Enhanced Driver’s License or Identification |
 
 **Table 2:** Examples of Identity Evidence
 
