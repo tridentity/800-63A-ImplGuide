@@ -6,7 +6,7 @@ An example in which trusted referees are used is the identity proofing of minors
 
 The Minors Trust Framework (MTF), an online identity trust model created under NIST’s National Strategy for Trusted Identities in Cyberspace Pilot Grant program, is an example framework that establishes identities for minors to facilitate secure private online access to services subject to approval or a trusted referee. MTF’s business process flow has been illustrated in Figure 3.
 
-[Figure 3: Minors Trust Framework](./media/figure-3-minors-trust-framework.png)
+[Figure 3: Minors Trust Framework](media/figure-3-minors-trust-framework.png)
 
 **Figure 3:** Minors Trust Framework
 
