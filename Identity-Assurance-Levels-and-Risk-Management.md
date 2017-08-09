@@ -18,6 +18,6 @@ Additionally, agencies and service providers are expected to employ appropriatel
 
 Managing the risk assessment process and selecting the assurance level can be challenging. To assist agencies through the process, NIST has built the framework around identity assurance levels summarized in Table 1 and provided selection guidance in SP800-63A. Assurance in a subscriber’s identity is described using one of three Identity Assurance Levels, or IALs. The IAL selection process, as presented in NIST800-63-3, has been illustrated in Figure 2. Broadly categorizing all subsystems at the same level of identity assurance may not be ideal and it should be recognized that systems with different IAL1 and IAL2 or IAL3 compartments may need to be partitioned with respect to their specific identity assurance level requirements, leading the implementations to be done accordingly.
 
-![Figure 2: Selecting an IAL](../../../800-63-3/sp800-63-3/media/IAL_CYOA.png)
+![Figure 2: Selecting an IAL](../../../sp800-63-3/media/IAL_CYOA.png)
 
 **Figure 2:** Selecting an IAL
