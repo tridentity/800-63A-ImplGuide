@@ -18,6 +18,6 @@ Identity proofing is the process by which a Credential Service Provider (CSP) co
 - Resolve a claimed identity to a single, unique identity within the context of the population of users served by the CSP.
 - Validate that all evidence that is supplied is valid (correct) and genuine (not counterfeit or misappropriated).
 - Validate that the claimed identity exists in the real world.
-- Verify that the claimed identity is associated with the real person supplying the identity evidence
+- Verify that the claimed identity is associated with the real person supplying the identity evidence.
   
-Figure 1: Individual Identity Proofing Journey
+![Figure 1: Individual Identity Proofing Journey] (figure-1-individual-identity-proofing-journey.png)
