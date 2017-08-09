@@ -68,9 +68,7 @@ Table 2 provides examples of evidence from each category of strength defined in 
 | **Strength** | **Examples** |
 | --- | --- |
 | Unacceptable | Library Cards |
-| Weak | Organizational Membership Cards
-
-Birth Certificate\br Social Security Card |
+| Weak | Organizational Membership Cards<br/>Birth Certificate<br/>Social Security Card |
 | Fair | Individual Tax Number
 
 Credit or Debit Card\br Bank Account Statement
