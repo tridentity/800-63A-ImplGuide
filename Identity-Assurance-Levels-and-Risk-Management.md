@@ -11,4 +11,13 @@ NIST SP 800-63A divides identity proofing requirements into three different assu
 **Table 1:** Identity Assurance Levels in SP 800-63A and OMB M-04-04
 
 Agencies and service providers building or acquiring identity solutions are expected to conduct a thorough risk assessment of their systems –including assessments of both privacy and security risks-- and understand the risks associated with the resources, data, and applications being accessed via a specific identity management solution. This document does not provide guidance on how to conduct these risk assessment, but readers can find further information in resources such as the aforementioned M-04-04; NIST Special Publication 800-53, *Security and Privacy Controls for Federal Information Systems and Organizations*; or Federal Information Processing Standards publication 199, *Standards for Security Categorization of Federal Information and Information Systems*. 
+
 Additionally, agencies and service providers are expected to employ appropriately tailored security controls from the moderate baseline of security controls defined in NIST SP800-53 or equivalent industry standard and ensure that the minimum assurance requirements associated with the moderate baseline are satisfied.
+
+## Selecting and IAL
+
+Managing the risk assessment process and selecting the assurance level can be challenging. To assist agencies through the process, NIST has built the framework around identity assurance levels summarized in Table 1 and provided selection guidance in SP800-63A. Assurance in a subscriber’s identity is described using one of three Identity Assurance Levels, or IALs. The IAL selection process, as presented in NIST800-63-3, has been illustrated in Figure 2. Broadly categorizing all subsystems at the same level of identity assurance may not be ideal and it should be recognized that systems with different IAL1 and IAL2 or IAL3 compartments may need to be partitioned with respect to their specific identity assurance level requirements, leading the implementations to be done accordingly.
+
+![Figure 2: Selecting an IAL](../../../800-63-3/sp800-63-3/media/IAL_CYOA.png)
+
+**Figure 2:** Selecting an IAL
