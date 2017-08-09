@@ -113,7 +113,7 @@ To calculate the KBV score for the applicant’s answers to a series of question
 
 <table><tbody>
 <tr><th>KBV Quality</th><th colspan=2>Unprompted</th><th colspan=2>Prompted</th><tr>
-<tr><td>Success</td><td>Failure</td><td>Success</td><td>Failure</td></tr>
+<tr><td></td><td>Success</td><td>Failure</td><td>Success</td><td>Failure</td></tr>
 <tr><td><strong>Low</strong></td><td>2</td><td>-5</td><td>1</td><td>-6</td></tr>
 <tr><td><strong>Medium</strong></td><td>4</td><td>-4</td><td>3</td><td>-5</td></tr>
 <tr><td><strong>High</strong></td><td>6</td><td>-3</td><td>5</td><td>-4</td></tr>
@@ -125,7 +125,7 @@ If the CSP keeps separate updated totals of all successful and all failed answer
 
 <table><tbody>
 <tr><th>IAL</th><th colspan=3>Success Total</th><th>Failure Total</th><tr>
-<tr><td>1st Attempt</td><td>1st Resume</td><td>2nd Resume</td></tr>
+<tr><td></td><td>1st Attempt</td><td>1st Resume</td><td>2nd Resume</td><td></td></tr>
 <tr><td><strong>2</strong></td><td>8</td><td>11</td><td>15</td><td>-8</td></tr>
 <tr><td><strong>3</strong></td><td>18</td><td>21</td><td>24</td><td>-9</td></tr>
 </tbody></table>
