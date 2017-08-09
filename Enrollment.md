@@ -28,16 +28,5 @@ In other cases, the CSP may allow the applicant to provide some documents via re
 
 | ***Example: U.S. Passport Pictures*** |
 | --- |
-|  The U.S. Department of State lists the following requirements for a passport picture ([Photo Requirements. U.S. Passports and International Travel. U.S. Dept of State. Bureau of Consular Affairs](https://travel.state.gov/content/passports/en/passports/photos.html):<br/>
-- Size of photo: 2  x  2 inches
-- Head must be between 1 and 1 3/8 inches from the bottom of the chin to the top of the head
-- Matte or glossy photo quality paper
-- Plain white or off-white background
-- Head must face camera directly with full face in view
-- Neutral expression or natural smile, both eyes open
-- In color
-- No glasses, hats, head covering, headphones
-- If own photo taken:
-    - Square aspect ratio
-    - Dimensions between 600 x 600 and 1200 x 1200 |
+|  The U.S. Department of State lists the following requirements for a passport picture ([Photo Requirements. U.S. Passports and International Travel. U.S. Dept of State. Bureau of Consular Affairs](https://travel.state.gov/content/passports/en/passports/photos.html)):<br/>- Size of photo: 2  x  2 inches<br/>- Head must be between 1 and 1 3/8 inches from the bottom of the chin to the top of the head<br/>- Matte or glossy photo quality paper<br/>- Plain white or off-white background<br/>- Head must face camera directly with full face in view<br/>- Neutral expression or natural smile, both eyes open<br/>- In color<br/>- No glasses, hats, head covering, headphones<br/>- If own photo taken:<br/>    - Square aspect ratio<br/>    - Dimensions between 600 x 600 and 1200 x 1200 |
 
