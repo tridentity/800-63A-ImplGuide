@@ -44,6 +44,7 @@ Fuzzy matching is effective only when the degree of confidence in the inexact ma
 
 | **Attribute** | **Check** | **Rule** |
 | --- | --- | --- |
+|  |  |
 
 | **Attribute** | **Check** | **Rule** |
 | --- | --- | --- |
