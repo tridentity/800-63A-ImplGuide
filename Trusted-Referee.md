@@ -1,10 +1,12 @@
+# Trusted Referee
+
 In instances where the individual enrolling cannot meet the identity evidence requirements specified in Section 4.5.1., the agency MAY use a trusted referee to assist in identity proofing the enrollee. See Section 5.3.4. for more details. These referees may be notaries, legal guardians, medical professionals, conservators, persons with power of attorney, or other trained, certified or approved individuals that can that can vouch for or act on behalf of the applicant. It follows that referees also need to have proof of identity in order to confirm their status. The applicable laws, regulations or agency policy that govern the use of trusted referees for identity proofing also determine the limits of liability for such referees in the event of mischief by the applicant. 
 
 An example in which trusted referees are used is the identity proofing of minors.
 
 The Minors Trust Framework (MTF), an online identity trust model created under NIST’s National Strategy for Trusted Identities in Cyberspace Pilot Grant program, is an example framework that establishes identities for minors to facilitate secure private online access to services subject to approval or a trusted referee. MTF’s business process flow has been illustrated in Figure 3.
 
-[Figure 3:Minors Trust Framework](images/figure3-minors-trust-framework.png)
+[Figure 3:Minors Trust Framework](images/figure-3-minors-trust-framework.png)
 
 **Figure 3:** Minors Trust Framework
 
