@@ -14,7 +14,7 @@ Agencies and service providers building or acquiring identity solutions are expe
 
 Additionally, agencies and service providers are expected to employ appropriately tailored security controls from the moderate baseline of security controls defined in NIST SP800-53 or equivalent industry standard and ensure that the minimum assurance requirements associated with the moderate baseline are satisfied.
 
-## Selecting and IAL
+## Selecting an IAL
 
 Managing the risk assessment process and selecting the assurance level can be challenging. To assist agencies through the process, NIST has built the framework around identity assurance levels summarized in Table 1 and provided selection guidance in SP800-63A. Assurance in a subscriber’s identity is described using one of three Identity Assurance Levels, or IALs. The IAL selection process, as presented in NIST800-63-3, has been illustrated in Figure 2. Broadly categorizing all subsystems at the same level of identity assurance may not be ideal and it should be recognized that systems with different IAL1 and IAL2 or IAL3 compartments may need to be partitioned with respect to their specific identity assurance level requirements, leading the implementations to be done accordingly.
 
@@ -26,14 +26,14 @@ According to Table 1 the following is true for IAL1:
 
 - There is no requirement of proof for an applicant’s identity.
 - Any attributes that are provided in the authentication process are either:
--- Self-asserted, or
--- Should be treated as self-asserted
+    - Self-asserted, or
+    - Should be treated as self-asserted
 
 Table 1 suggests the following for IAL2:
 
 - Identity proofing is required with evidence that:
--- Supports real-world existence of the claimed identity
--- Verifies the association between the applicant and the real-world identity
+    - Supports real-world existence of the claimed identity
+    - Verifies the association between the applicant and the real-world identity
 - Identity proofing can be done in person or remotely
 - Attributes may be asserted by CSPs to RPs for verification in support of pseudonymous identity
 
@@ -68,10 +68,20 @@ Table 2 provides examples of evidence from each category of strength defined in 
 | **Strength** | **Examples** |
 | --- | --- |
 | Unacceptable | Library Cards |
-| Weak | Organizational Membership Cards\br Birth Certificate\br Social Security Card |
-| Fair | Individual Tax Number\br Credit or Debit Card\br Bank Account Statement\br Utility Account Statement |
+| Weak | Organizational Membership Cards
+
+Birth Certificate\br Social Security Card |
+| Fair | Individual Tax Number
+
+Credit or Debit Card\br Bank Account Statement
+
+Utility Account Statement |
 | Strong | Real ID Driver’s License\br State ID |
-| Superior | FIPS 201 Compliant Personal Identification Verification Card (PIV, PIV-I, and CAC)\br National Passports\br Enhanced Driver’s License or Identification |
+| Superior | FIPS 201 Compliant Personal Identification Verification Card (PIV, PIV-I, and CAC)
+
+National Passports
+
+Enhanced Driver’s License or Identification |
 
 **Table 2:** Examples of Identity Evidence
 
