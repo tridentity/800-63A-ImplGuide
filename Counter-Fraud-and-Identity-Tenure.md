@@ -17,24 +17,9 @@ Four categories of counter-fraud checks of increasing stringency shown in Table 
 | **Level** | **Counter Fraud Checks** |
 | --- | --- |
 | **WEAK** | No confirmed evidence from an authoritative source that Claimed Identity may be deceased |
-| **ACCEPTABLE** | No confirmed evidence from a reliable and authoritative source, that:<br/><ul><li>The provided Identifier is being used for fraudulent activity</li>
-<li>The Claimed Identity has been subject to identity theft, whether successful or not</li>
-<li>The Claimed Identity is unknown by an organization that could reasonably be expected to have knowledge of them</li>
-<li>The Claimed Identity is likely to be targeted by third parties</li>
-<li>The Claimed Identity may be deceased</li>
-<li>The Claimed Identity is known to be a fraudulent identity</li></ul> |
-| **STRONG** | No confirmed evidence, from a reliable, authoritative and independent source, that:<br/><ul><li>The provided Identifier is being used for fraudulent activity</li>
-<li>The Claimed Identity has been subject to identity theft, whether successful or not</li>
-<li>The Claimed Identity is unknown by an organization that could reasonably be expected to have knowledge of them</li>
-<li>The Claimed Identity is likely to be targeted by third parties</li>
-<li>The Claimed Identity may be deceased</li>
-<li>The Claimed Identity is known to be a fraudulent identity</li></ul> |
-| **SUPERIOR** | No confirmed evidence, from multiple reliable, authoritative and independent sources, that:<br/><ul><li>The provided Identifier is being used for fraudulent activity</li>
-<li>The Claimed Identity has been subject to identity theft, whether successful or not</li>
-<li>The Claimed Identity is unknown by an organization that could reasonably be expected to have knowledge of them</li>
-<li>The Claimed Identity is likely to be targeted by third parties</li>
-<li>The Claimed Identity may be deceased</li>
-<li>The Claimed Identity is known to be a fraudulent identity</li></ul> |
+| **ACCEPTABLE** | No confirmed evidence from a reliable and authoritative source, that:<br/><ul><li>The provided Identifier is being used for fraudulent activity</li><li>The Claimed Identity has been subject to identity theft, whether successful or not</li><li>The Claimed Identity is unknown by an organization that could reasonably be expected to have knowledge of them</li><li>The Claimed Identity is likely to be targeted by third parties</li><li>The Claimed Identity may be deceased</li><li>The Claimed Identity is known to be a fraudulent identity</li></ul> |
+| **STRONG** | No confirmed evidence, from a reliable, authoritative and independent source, that:<br/><ul><li>The provided Identifier is being used for fraudulent activity</li><li>The Claimed Identity has been subject to identity theft, whether successful or not</li><li>The Claimed Identity is unknown by an organization that could reasonably be expected to have knowledge of them</li><li>The Claimed Identity is likely to be targeted by third parties</li><li>The Claimed Identity may be deceased</li><li>The Claimed Identity is known to be a fraudulent identity</li></ul> |
+| **SUPERIOR** | No confirmed evidence, from multiple reliable, authoritative and independent sources, that:<br/><ul><li>The provided Identifier is being used for fraudulent activity</li><li>The Claimed Identity has been subject to identity theft, whether successful or not</li><li>The Claimed Identity is unknown by an organization that could reasonably be expected to have knowledge of them</li><li>The Claimed Identity is likely to be targeted by third parties</li><li>The Claimed Identity may be deceased</li><li>The Claimed Identity is known to be a fraudulent identity</li></ul> |
 
 **Table 8:** Counter Fraud Check Capabilities and Outcomes
 
