@@ -45,9 +45,9 @@ Fuzzy matching is effective only when the degree of confidence in the inexact ma
 <table><tbody><tr>
 <td><table><tbody>
 <tr><th>Attribute</th><th>Check</th><th>Rule</th></tr>
-<tr><td></td><td></td><td></td><td rowspan=3></td></tr>
-<tr><td></td><td></td><td></td></tr>
-<tr><td></td><td></td><td></td></tr>
+<tr><td></td><td></td><td rowspan=3></td></tr>
+<tr><td></td><td></td></tr>
+<tr><td></td><td></td></tr>
 </tbody><table>
 
 <table><tbody><tr><th>Attribute</th><th>Check</th><th>Rule</th></tr>
