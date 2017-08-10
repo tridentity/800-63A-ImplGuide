@@ -183,8 +183,8 @@ Selective Service card</td></tr>
 <tr><td>
 Employment Authorization Card (I-766)</td><td>
 Certified college or university transcript</td><td>
-Foreign passport with attached temporary I-551 (immigrant visa endorsed with ADIT stamp)</td><td></td></tr>
-Medical or health card
+Foreign passport with attached temporary I-551 (immigrant visa endorsed with ADIT stamp)</td><td>
+Medical or health card</td></tr>
 <tr><td>
 U.S. Travel Document (I-327 or I-571)</td><td>
 IRS form W-2 Wage and Tax Statement</td><td>
