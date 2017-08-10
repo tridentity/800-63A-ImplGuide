@@ -131,11 +131,8 @@ State professional license</td></tr>
 Current alien registration card (old Form I-551) without expiration date and with INS or USCIS verification </td><td>
 NJ public assistance card with photo (also known as a NJ Social Services ID card) </td></tr>
 <tr><td>Photo temporary resident card (Form I-688)</td><td>High school diploma, GED or college diploma</td></tr> 
-<tr><td rowspan=3></td><td>
-Property tax statement, bill or receipt issued by a New Jersey municipality </td></tr>
-<tr><td>
-For NJ high school students: a waiver certificate for the written portion of the driver’s test  </td></tr>
-<tr><td>
-Veterans Affairs universal access photo ID card </td></tr>
+<tr><td rowspan=3></td><td>Property tax statement, bill or receipt issued by a New Jersey municipality </td></tr>
+<tr><td>For NJ high school students: a waiver certificate for the written portion of the driver’s test  </td></tr>
+<tr><td>Veterans Affairs universal access photo ID card </td></tr>
 </tbody></table>
 **Table 14:** Requirements for New Jersey
