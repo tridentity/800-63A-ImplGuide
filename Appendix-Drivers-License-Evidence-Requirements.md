@@ -135,4 +135,146 @@ NJ public assistance card with photo (also known as a NJ Social Services ID card
 <tr><td>For NJ high school students: a waiver certificate for the written portion of the driver’s test  </td></tr>
 <tr><td>Veterans Affairs universal access photo ID card </td></tr>
 </tbody></table>
+
 **Table 14:** Requirements for New Jersey
+
+Finally, the State of Texas defines four sets of documents and requires that the applicant provide one primary, two secondary, or one secondary and two supporting pieces of evidence to prove identity for their application, beside the requirements for SSN, lawful status and state residency, which may also be satisfied by one of the documents among those required for identity, as outlined in Table 15.
+
+<table><tbody>
+<tr><th>IDENTITY:<br/>One Primary<br/>OR<br/>Two Secondary<br/>OR<br/>One Secondary and Two Supporting of</th>
+<th>SSN:<br/>One of</th>
+<th>LAWFUL STATUS:<br/>One of</th>
+<th>TEXAS RESIDENCY:<br/>Two of</th></tr>
+<tr><td rowspan=17>Primary</td><td>
+Texas driver license or Texas identification card not expired more than 2 years (proof of citizenship will be required if not previously established)</td><td>
+Social Security card</td><td>
+U.S. passport book or card</td><td>
+Current deed, mortgage, monthly mortgage statement, mortgage payment booklet or a residential rental/lease agreement</td></tr>
+<tr><td>
+Unexpired U.S. passport book or card</td><td>
+Pilot license</td><td>
+Birth certificate issued by a U.S. state, U.S. territory or District of Columbia</td><td>
+Valid, unexpired Texas voter registration card</td></tr>
+<tr><td>
+U.S. Certificate of Citizenship or Certificate of Naturalization (N-560, N-561, N-645, N-550, N-55G, N-570 or N-578)</td><td>
+Military identification (active, reserve, retired or dependent status)</td><td>
+For U.S. citizens born abroad—Certificate of Report of Birth (DS-1350 or FS-545) or Consular Report of Birth (FS-240) issued by the U.S. Department of State</td><td>
+Texas motor vehicle registration or title</td></tr>
+<tr><td>
+U.S. Citizen Identification Card (I-179 or I-197)</td><td>
+Texas Commission on Law Enforcement (TCOLE).</td><td>
+U.S. Certificate of Citizenship or Certificate of Naturalization (N-560, N-561, N-645, N-550, N-55G, N-570 or N-578)</td><td>
+Texas boat registration or title</td></tr>
+<tr><td>
+Permanent Resident Card (I-551)</td><td>
+DD-214</td><td>
+U.S. Department of Justice Immigration and Naturalization Service U.S. Citizen ID Card (Form I-197 or I-179)</td><td>
+Concealed Handgun License (CHL) or License to Carry (LTC)</td></tr>
+<tr><td>
+Foreign passport with attached temporary I-551 (immigrant visa endorsed with ADIT stamp)</td><td>
+Medicare or Medicaid card</td><td>
+U.S. passport that reads, “THE BEARER IS A UNITED STATES NATIONAL AND NOT A UNITED STATES CITIZEN” on the last page</td><td>
+Utility statement (including electric, water, natural gas, satellite TV, cable TV or noncellular phone bill) dated within 90 days of the date of application</td></tr>
+<tr><td>
+Temporary Resident Identification Card (I-688)</td><td>
+Health insurance card</td><td>
+Permanent Resident Card (Form I-551)</td><td>
+Selective Service card</td></tr>
+<tr><td>
+Employment Authorization Card (I-766)</td><td>
+Certified college or university transcript</td><td>
+Foreign passport with attached temporary I-551 (immigrant visa endorsed with ADIT stamp)</td><td></td></tr>
+Medical or health card
+<tr><td>
+U.S. Travel Document (I-327 or I-571)</td><td>
+IRS form W-2 Wage and Tax Statement</td><td>
+Passport or I-94 stamped “Approved I-551”</td><td>
+Current homeowner’s or renter’s insurance policy or homeowner’s or renter’s insurance statement</td></tr>
+<tr><td>
+Advance Parole Document (I-512 or I-512L)</td><td>
+Form 1099-MISC</td><td>
+Passport or I-94 stamped “Processed for I-551”</td><td>
+Current automobile insurance policy or an automobile insurance statement</td></tr>
+<tr><td>
+I-94 stamped Sec. 208 Asylee with photo</td><td>
+Pay stub (stub must include name and SSN)</td><td>
+Permit to Reenter the United States (Form I-327)</td><td>
+Texas high school, college or university report card or transcript for the current school year</td></tr>
+<tr><td>
+I-94 stamped Sec. 207 Refugee with photo</td><td>
+Individuals who do not have a SSN, have never been issued a SSN, or are not eligible for a SSN can visit any driver license office and complete an affidavit attesting to such. Providing a false statement in connection with this affidavit will result in the cancellation of the driver license or ID card and may result in criminal charges. An affidavit is not acceptable for the issuance of a CDL.</td><td>
+I-94 or passport with annotation “Section 207” or “refugee with photo”</td><td>
+W-2 or 1099 tax form from the current tax year</td></tr>
+<tr><td>Refugee Travel Letter with photo, stamped by Customs and Border Protection</td>
+<td></td>
+<td>Refugee Travel Document (Form I-571)</td>
+<td>Mail from financial institutions; including checking, savings, investment account and credit card statements dated within 90 days of the date of application</td>
+</tr>
+<tr><td>American Indian Card (I-872)</td>
+<td></td><td>
+I-688B coded 274a.12(a)(3)</td>
+<td>Mail from a federal, state, county or city government agency, or a third-party representing a government agency dated within 90 days of the date of application</td></tr>
+<tr><td>Northern Mariana card (I-873)</td>
+<td></td><td>
+I-766 with category A3 or A03</td>
+<td>Current automobile payment booklet</td></tr>
+<tr><td>Foreign passport with attached visa and Form I-94</td>
+<td></td><td>
+I-94 or passport with annotation “Section 208” or “asylee with photo”</td>
+<td>Pre-printed paycheck or payment stub dated within 90 days of the date of application</td></tr>
+<tr><td>Unexpired U.S. military ID card for active duty, reserve or retired personnel with identifiable photo</td>
+<td></td><td>
+I-688B coded 274a.12(a)(5)</td>
+<td>Current documents issued by the U.S. military indicating residence address</td></tr>
+<tr><td rowspan=4></td><td>Original or certified copy of a birth certificate issued by a State Bureau of Vital Statistics or equivalent agency from a U.S. state, U.S. territory, the District of Columbia or a Canadian province</td>
+<td></td><td>
+I-766 with category A5 or A05</td>
+<td>Document from the Texas Department of Criminal Justice indicating the applicant's recent release or parole</td></tr>
+<tr><td rowspan=3><td>For U.S. citizens born abroad—Certificate of Report of Birth (DS-1350 or FS-545) or Consular Report of Birth (FS-240) issued by the U.S. Department of State</td>
+<td></td><td>
+Refugee Travel Letter with photo, stamped by Customs and Border Protection</td>
+<td>Current Form DS2019, I-20 or a document issued by U.S. Citizenship and Immigration Services</td></tr>
+<tr><td>Original or certified copy of a court order with name and date of birth indicating a name and/or gender change from a U.S. state, U.S. territory, the District of Columbia or a Canadian province</td>
+<td></td><td>
+A document (or combination of documents) issued by the U.S. Department of Justice, U.S. Department of State, U.S. Department of Homeland Security or U.S. Citizenship and Immigration Services that shows lawful temporary admission to the U.S.</td>
+<td>Veteran's Health Identification Card (VHIC)</td></tr>
+<tr><td rowspan=31>Supporting</td><td>Social Security Card</td><td></td><td></td><td>Letter of Texas residency issued by the Texas Juvenile Justice Department (TJJD)</td></tr>
+<tr><td>Form W-2 or 1099</td><td></td><td></td><td>	The residency requirement will be waived for individuals who are authorized to use an alternative address under the following circumstances:
+1. Individuals subject to the Address Confidentiality Program (ACP) administered by the Attorney General of Texas
+2. Judges or spouses of judges
+3. Active duty military personnel, their spouses, and dependents may provide a residency address outside of Texas
+4. Individuals currently incarcerated in a Texas Department of Criminal Justice facility
+</td></tr>
+<tr><td>
+Driver license or ID card issued by another U.S. state, U.S. territory, the District of Columbia or Canadian province (unexpired or expired less than two years)*</td><td></td><td></td><td></td></tr><tr><td>
+Texas driver license or ID card that has been expired more than two years</td><td></td><td></td><td></td></tr><tr><td>
+Temporary Texas driver license or ID card</td><td></td><td></td><td></td></tr><tr><td>
+School records* (e.g., report cards, photo ID cards)</td><td></td><td></td><td></td></tr><tr><td>
+Unexpired U.S. military dependent identification card</td><td></td><td></td><td></td></tr><tr><td>
+Original or certified copy of marriage license or divorce decree (if the document is not in English, a certified translation must accompany it)</td><td></td><td></td><td></td></tr><tr><td>
+Voter registration card*</td><td></td><td></td><td></td></tr><tr><td>
+Pilot license*</td><td></td><td></td><td></td></tr><tr><td>
+Concealed handgun license or License to Carry*</td><td></td><td></td><td></td></tr><tr><td>
+Professional license issued by a Texas state agency</td><td></td><td></td><td></td></tr><tr><td>
+ID card issued by a government agency*</td><td></td><td></td><td></td></tr><tr><td>
+Consular document issued by a state or national government</td><td></td><td></td><td></td></tr><tr><td>
+Texas Inmate ID card or similar form of ID issued by Texas Department of Criminal Justice</td><td></td><td></td><td></td></tr><tr><td>
+Texas Department of Criminal Justice parole or mandatory release certificate</td><td></td><td></td><td></td></tr><tr><td>
+Federal inmate identification card</td><td></td><td></td><td></td></tr><tr><td>
+Federal parole or release certificate</td><td></td><td></td><td></td></tr><tr><td>
+Medicare or Medicaid card</td><td></td><td></td><td></td></tr><tr><td>
+Selective Service card</td><td></td><td></td><td></td></tr><tr><td>
+Immunization records*</td><td></td><td></td><td></td></tr><tr><td>
+Tribal membership card from federally-recognized tribe</td><td></td><td></td><td></td></tr><tr><td>
+Certificate of Degree of Indian Blood</td><td></td><td></td><td></td></tr><tr><td>
+Unexpired foreign passport</td><td></td><td></td><td></td></tr><tr><td>
+Unexpired insurance policy valid for the past two years (e.g., auto, home or life insurance)</td><td></td><td></td><td></td></tr><tr><td>
+Current Texas vehicle registration or title</td><td></td><td></td><td></td></tr><tr><td>
+Current Texas boat registration or title</td><td></td><td></td><td></td></tr><tr><td>
+Veteran's ID card issued by the U.S. Department of Veteran Affairs</td><td></td><td></td><td></td></tr><tr><td>
+Abstract (shortened) birth certificate</td><td></td><td></td><td></td></tr><tr><td>
+Hospital-issued birth record*</td><td></td><td></td><td></td></tr><tr><td>
+Military records (e.g., Form DD-214, DD-215, NGB-22)</td><td></td><td></td><td></td></tr>
+</tbody></table>
+
+**Table 15:** Requirements for Texas
