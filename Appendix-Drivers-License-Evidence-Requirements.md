@@ -91,7 +91,7 @@ US school photo ID card with transcript or school records</td></tr>
 If you are under 18, then we will accept a Parent or Guardian Certification that verifies you are living with a parent or guardian
 </strong></td><td>Valid active duty US military photo ID card </td><td>
 US college photo ID card with transcript </td></tr>
-<tr><td rowspan=16></td><td>
+<tr><td rowspan=17></td><td>
 US adoption papers</td><td>
 Valid federal, state or local government employee driver license</td></tr>
 <tr><td>
