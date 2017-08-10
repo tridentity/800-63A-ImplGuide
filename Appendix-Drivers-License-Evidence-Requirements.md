@@ -130,6 +130,7 @@ State professional license</td></tr>
 <tr><td>
 Current alien registration card (old Form I-551) without expiration date and with INS or USCIS verification </td><td>
 NJ public assistance card with photo (also known as a NJ Social Services ID card) </td></tr>
+<tr><td>Photo temporary resident card (Form I-688)</td><td>High school diploma, GED or college diploma</td></tr> 
 <tr><td rowspan=3></td><td>
 Property tax statement, bill or receipt issued by a New Jersey municipality </td></tr>
 <tr><td>
