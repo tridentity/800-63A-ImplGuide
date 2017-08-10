@@ -94,40 +94,40 @@ US college photo ID card with transcript </td></tr>
 <tr><td rowspan=16></td><td>
 US adoption papers</td><td>
 Valid federal, state or local government employee driver license</td></tr>
-<tr><td></td><td></td></tr>
+<tr><td>
 Certificate of naturalization (Form N-550, N-570 or N-578)</td><td>
 Valid federal, state or local government employee photo ID card</td></tr>
-<tr><td></td><td></td></tr>
+<tr><td>
 Certificate of citizenship (Form N-560, N-561 or N-645)</td><td>
 US military discharge papers (DD214)</td></tr>
-<tr><td></td><td></td></tr>
+<tr><td>
 Certificate of citizenship (Form N-560, N-561 or N-645)</td><td>
 US military discharge papers (DD214)</td></tr>
-<tr><td></td><td></td></tr>
+<tr><td>
 Foreign passport with INS or USCIS verification and valid record of arrival/departure (Form I-94)</td><td>
 FAA pilot license</td></tr>
-<tr><td></td><td></td></tr>
+<tr><td>
 Foreign passport with INS or USCIS verification and valid Form I-551 stamp</td><td>
 Current PHOTO driver license from any other state or the District of Columbia</td></tr>
-<tr><td></td><td></td></tr>
+<tr><td>
 Current alien registration card (new Form I-551) with expiration date and verification from INS or USCIS </td><td>
 Social Security card</td></tr>
-<tr><td></td><td></td></tr>
+<tr><td>
 Refugee travel document (Form I-571)</td><td>
 Bank statement or record </td></tr>
-<tr><td></td><td></td></tr>
+<tr><td>
 US re-entry permit (Form I-327)</td><td>
 ATM card with preprinted name and applicant’s signature. (Please note: An ATM card and bank statement cannot be submitted together.) </td></tr>
-<tr><td></td><td></td></tr>
+<tr><td>
 Valid I-94 stamped “Refugee,” “Parolee,” “Asylee” or “Notice of Action” (Form I-797 approved petition) by INS or USCIS </td><td>
 Current health insurance card, prescription card </td></tr>
-<tr><td></td><td></td></tr>
+<tr><td>
 Valid I-94 with attached photo stamped “Processed for I-551…” by INS or USCIS</td><td></td></tr>
 Employee ID card with printed pay stub 
-<tr><td></td><td></td></tr>
+<tr><td>
 Current photo employment authorization card (Form I-688B or I-766). Must be presented with valid Social Security card.</td><td>
 State professional license</td></tr>
-<tr><td></td><td></td></tr>
+<tr><td>
 Current alien registration card (old Form I-551) without expiration date and with INS or USCIS verification </td><td>
 NJ public assistance card with photo (also known as a NJ Social Services ID card) </td></tr>
 <tr><td rowspan=3></td><td>
