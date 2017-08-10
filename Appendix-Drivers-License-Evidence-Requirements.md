@@ -226,11 +226,11 @@ I-94 or passport with annotation “Section 208” or “asylee with photo”</t
 <td></td><td>
 I-688B coded 274a.12(a)(5)</td>
 <td>Current documents issued by the U.S. military indicating residence address</td></tr>
-<tr><td rowspan=4></td><td>Original or certified copy of a birth certificate issued by a State Bureau of Vital Statistics or equivalent agency from a U.S. state, U.S. territory, the District of Columbia or a Canadian province</td>
+<tr><td rowspan=3>Secondary</td><td>Original or certified copy of a birth certificate issued by a State Bureau of Vital Statistics or equivalent agency from a U.S. state, U.S. territory, the District of Columbia or a Canadian province</td>
 <td></td><td>
 I-766 with category A5 or A05</td>
 <td>Document from the Texas Department of Criminal Justice indicating the applicant's recent release or parole</td></tr>
-<tr><td rowspan=3><td>For U.S. citizens born abroad—Certificate of Report of Birth (DS-1350 or FS-545) or Consular Report of Birth (FS-240) issued by the U.S. Department of State</td>
+<tr><td>For U.S. citizens born abroad—Certificate of Report of Birth (DS-1350 or FS-545) or Consular Report of Birth (FS-240) issued by the U.S. Department of State</td>
 <td></td><td>
 Refugee Travel Letter with photo, stamped by Customs and Border Protection</td>
 <td>Current Form DS2019, I-20 or a document issued by U.S. Citizenship and Immigration Services</td></tr>
