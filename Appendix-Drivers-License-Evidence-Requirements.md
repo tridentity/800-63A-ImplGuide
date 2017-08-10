@@ -141,7 +141,7 @@ NJ public assistance card with photo (also known as a NJ Social Services ID card
 Finally, the State of Texas defines four sets of documents and requires that the applicant provide one primary, two secondary, or one secondary and two supporting pieces of evidence to prove identity for their application, beside the requirements for SSN, lawful status and state residency, which may also be satisfied by one of the documents among those required for identity, as outlined in Table 15.
 
 <table><tbody>
-<tr><th>IDENTITY:<br/>One Primary<br/>OR<br/>Two Secondary<br/>OR<br/>One Secondary and Two Supporting of</th>
+<tr><th colspan=2>IDENTITY:<br/>One Primary<br/>OR<br/>Two Secondary<br/>OR<br/>One Secondary and Two Supporting of</th>
 <th>SSN:<br/>One of</th>
 <th>LAWFUL STATUS:<br/>One of</th>
 <th>TEXAS RESIDENCY:<br/>Two of</th></tr>
