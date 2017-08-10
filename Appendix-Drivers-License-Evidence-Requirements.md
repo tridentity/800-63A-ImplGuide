@@ -39,7 +39,7 @@ Enhanced Driver License or Enhanced ID Card issued by any state in the US - (Evi
 The District of Columbia requires a set of documents from three categories –one of Group A, or one of Group B, AND two of Group C are required for identity proofing of individuals for a driver’s license application. These groups are listed in Table 13.
 
 <table><tbody>
-<tr><th>One of (Group A)</th>Or, One of (Group B)<th></th><th>And, Two of (Group C)</th></tr>
+<tr><th>One of (Group A)</th><th>Or, One of (Group B)</th><th>And, Two of (Group C)</th></tr>
 <tr><td><strong>United States birth certificate or birth certification card filed with a state office of vital statistics</strong></td><td>Social Security card bearing applicant's full name, Social Security number, and signature</td><td>Utility bill (water, gas, electric, oil, or cable), with name and address, issued within the last 60 days (disconnect notices/bills are not accepted)</td></tr>
 <tr><td><strong>Valid REAL ID driver license, learner permit, or identification card only if the REAL ID presented has been issued to a US citizen; if the REAL ID presented as a proof has been issued to a US resident with lawful status, it will require immigration documentation as well</strong></td><td>Pay statement reflecting full name and full Social Security number</td><td>Telephone bill (cell phone, wireless, or pager bills acceptable), reflecting applicant's name and current address, issued within the last 60 days (disconnect notices/bills are not accepted)</td></tr>
 <tr><td><strong>Unexpired US passport or passport card</strong></td><td>W-2 (wage and tax statement) reflecting full name and full Social Security number</td><td>Deed, mortgage, or settlement agreement reflecting applicant's name and property address issued within the last 60 days</td></tr>
@@ -60,6 +60,81 @@ The District of Columbia requires a set of documents from three categories –on
 
 The State of New Jersey follows a similar algorithm to that used by the District of Columbia, wherein one document from two different groups is required in addition to two documents from another group. These are illustrated in Table 14.
 
-
-
+<table><tbody>
+<tr><th>One of (Group A)</th><th>Or, One of (Group B)</th><th>And, Two of (Group C)</th></tr>
+<tr><td><strong>Utility or credit card bill issued in the past 90 days that shows your name at your current addressNote: Mail addressed to P.O. boxes not accepted as proof of address (39:3-9a)</strong></td><td>Civil birth certificate* or certified copy from one of the 50 states, District of Columbia or a US territory. Photocopies or certificates from hospitals or religious entities are not accepted.</td><td>Civil marriage, domestic partnership or civil union certificate issued by the municipality or state in which the ceremony occurred. Please note: Photocopies or certificates issued by religious entities are not acceptable.</td></tr>
+<tr><td><strong>
+Checking or savings account statement from a bank or credit union, issued in the past 60 days
+</strong></td><td>US Department of State birth certificate (Form FS-545, FS-240 or DS-1350)</td><td>
+Order or decree of divorce, dissolution or termination</td></tr>
+<tr><td><strong>
+High school or college report card or transcript containing your address, issued within the past two years
+</strong></td><td>US passport, current or expired less than 3 years</td><td>
+Court order for a legal name change, signed by a judge or court clerk</td></tr>
+<tr><td><strong>
+Original lease or rental agreement showing your name as the lessee or renter
+</strong></td><td>Current US Passport card</td><td>
+Current US military dependent card </td></tr>
+<tr><td><strong>
+Property tax bill, statement or receipt from the past year
+</strong></td><td>Current NJ digital driver license</td><td>
+US military photo retiree card </td></tr>
+<tr><td><strong>
+Any letter or correspondence (including tax bills) received from the IRS or state tax office in the last year
+</strong></td><td>Current NJ digital non-driver ID card</td><td>
+Valid NJ firearm purchaser card </td></tr>
+<tr><td><strong>
+First-class mail received from any federal, state or local government agency in the past six months
+</strong></td><td>Current NJ digital boat license</td><td>
+US school photo ID card with transcript or school records</td></tr>
+<tr><td><strong>
+If you are under 18, then we will accept a Parent or Guardian Certification that verifies you are living with a parent or guardian
+</strong></td><td>Valid active duty US military photo ID card </td><td>
+US college photo ID card with transcript </td></tr>
+<tr><td rowspan=16></td><td>
+US adoption papers</td><td>
+Valid federal, state or local government employee driver license</td></tr>
+<tr><td></td><td></td></tr>
+Certificate of naturalization (Form N-550, N-570 or N-578)</td><td>
+Valid federal, state or local government employee photo ID card</td></tr>
+<tr><td></td><td></td></tr>
+Certificate of citizenship (Form N-560, N-561 or N-645)</td><td>
+US military discharge papers (DD214)</td></tr>
+<tr><td></td><td></td></tr>
+Certificate of citizenship (Form N-560, N-561 or N-645)</td><td>
+US military discharge papers (DD214)</td></tr>
+<tr><td></td><td></td></tr>
+Foreign passport with INS or USCIS verification and valid record of arrival/departure (Form I-94)</td><td>
+FAA pilot license</td></tr>
+<tr><td></td><td></td></tr>
+Foreign passport with INS or USCIS verification and valid Form I-551 stamp</td><td>
+Current PHOTO driver license from any other state or the District of Columbia</td></tr>
+<tr><td></td><td></td></tr>
+Current alien registration card (new Form I-551) with expiration date and verification from INS or USCIS </td><td>
+Social Security card</td></tr>
+<tr><td></td><td></td></tr>
+Refugee travel document (Form I-571)</td><td>
+Bank statement or record </td></tr>
+<tr><td></td><td></td></tr>
+US re-entry permit (Form I-327)</td><td>
+ATM card with preprinted name and applicant’s signature. (Please note: An ATM card and bank statement cannot be submitted together.) </td></tr>
+<tr><td></td><td></td></tr>
+Valid I-94 stamped “Refugee,” “Parolee,” “Asylee” or “Notice of Action” (Form I-797 approved petition) by INS or USCIS </td><td>
+Current health insurance card, prescription card </td></tr>
+<tr><td></td><td></td></tr>
+Valid I-94 with attached photo stamped “Processed for I-551…” by INS or USCIS</td><td></td></tr>
+Employee ID card with printed pay stub 
+<tr><td></td><td></td></tr>
+Current photo employment authorization card (Form I-688B or I-766). Must be presented with valid Social Security card.</td><td>
+State professional license</td></tr>
+<tr><td></td><td></td></tr>
+Current alien registration card (old Form I-551) without expiration date and with INS or USCIS verification </td><td>
+NJ public assistance card with photo (also known as a NJ Social Services ID card) </td></tr>
+<tr><td rowspan=3></td><td>
+Property tax statement, bill or receipt issued by a New Jersey municipality </td></tr>
+<tr><td>
+For NJ high school students: a waiver certificate for the written portion of the driver’s test  </td></tr>
+<tr><td>
+Veterans Affairs universal access photo ID card </td></tr>
+</tbody></table>
 **Table 14:** Requirements for New Jersey
