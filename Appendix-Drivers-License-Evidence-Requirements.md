@@ -122,8 +122,8 @@ ATM card with preprinted name and applicant’s signature. (Please note: An ATM 
 Valid I-94 stamped “Refugee,” “Parolee,” “Asylee” or “Notice of Action” (Form I-797 approved petition) by INS or USCIS </td><td>
 Current health insurance card, prescription card </td></tr>
 <tr><td>
-Valid I-94 with attached photo stamped “Processed for I-551…” by INS or USCIS</td><td></td></tr>
-Employee ID card with printed pay stub 
+Valid I-94 with attached photo stamped “Processed for I-551…” by INS or USCIS</td><td>
+Employee ID card with printed pay stub </td></tr>
 <tr><td>
 Current photo employment authorization card (Form I-688B or I-766). Must be presented with valid Social Security card.</td><td>
 State professional license</td></tr>
