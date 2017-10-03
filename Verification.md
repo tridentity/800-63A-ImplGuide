@@ -35,3 +35,7 @@ Limiting the number of consecutive unsuccessful verification attempts also helps
 CSP’s may require applicants to confirm their address, as outlined in SP800-63A. This is done in the form of an enrollment code sent by the CSP, intended for the applicant to receive at their address of record. Successful provision of the correct code by the applicant to the CSP serves to confirm the address provided by the applicant: The address binds the identity to the applicant’s record.
 
 An example is a scannable image or barcode that is unique to the enrollment, mailed to the applicant’s address of record. Successful scanning and verification of this image or barcode by a mobile application provided in the CSP’s workflow can be used for address confirmation.
+
+![Figure 7: Verification](https://github.com/usnistgov/800-63A-ImplGuide/blob/master/media/workflow-5-verification.png)
+
+**Figure 7:** Verification
