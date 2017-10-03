@@ -79,7 +79,7 @@ Please note that while examples of unacceptable and weak evidence are presented 
 
 A CSP can collect an applicant’s social security number as additional information, but two other forms of identification should still be collected to which information in the social security number should still resolve. An example selection of evidence documents for a CSP to consider in an IAL2 process are shown in the following figure.
 
-![Figure 3: Selecting Evidence](https://github.com/usnistgov/800-63-3/tree/nist-pages/sp800-63-3/media/workflow-1-evidence-selection.png)
+![Figure 3: Selecting Evidence](https://github.com/usnistgov/800-63A-ImplGuide/tree/master/media/workflow-1-evidence-selection.png)
 
 **Figure 3** Selecting Evidence
 
