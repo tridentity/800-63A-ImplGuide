@@ -81,6 +81,8 @@ A CSP can collect an applicant’s social security number as additional informat
 
 ![Figure 3: Selecting Evidence](https://github.com/usnistgov/800-63-3/blob/nist-pages/sp800-63-3/media/workflow-1-evidence-selection.png)
 
+**Figure 3** Selecting Evidence
+
 Documents signed by digital watermarking (DWM) (such as driver’s license images) can also be used by CSP’s as a piece of strong evidence in identity proofing. Watermarks are embedded in images used in secure identity verification and use applications to verify the rightful owner of an evidence document. Some applications, for instance, use the applicant’s fingerprint information to watermark the image. Training of operators is also important for CSP’s to be able to expect and recognize the presence of a watermark in a piece of evidence that normally carries it, or notice when the watermark is absent for a simple binary fraud checking measure.
 
 Numbers, references and checksums may also be used by CSP’s to validate strong evidence in identity proofing.
