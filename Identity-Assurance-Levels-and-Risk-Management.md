@@ -77,7 +77,9 @@ Table 2 provides examples of evidence from each category of strength defined in 
 
 Please note that while examples of unacceptable and weak evidence are presented here for the sake of completeness, CSP’s should nevertheless be careful in requiring such documents as identity evidence. CSP’s should also consider birth certificates and social security cards, which contain no visual evidence with which to confirm the applicant’s identity, with special care. Moreover, CSP’s are cautioned to revisit guidance provided earlier with respect to international or common names and the event of a name change while considering evidence for strength.
 
-A CSP can collect an applicant’s social security number as additional information, but two other forms of identification should still be collected to which information in the social security number should still resolve.
+A CSP can collect an applicant’s social security number as additional information, but two other forms of identification should still be collected to which information in the social security number should still resolve. An example selection of evidence documents for a CSP to consider in an IAL2 process are shown in the following figure.
+
+![Figure 3: Selecting Evidence](https://github.com/usnistgov/800-63-3/blob/nist-pages/sp800-63-3/media/workflow-1-evidence-selection.png)
 
 Documents signed by digital watermarking (DWM) (such as driver’s license images) can also be used by CSP’s as a piece of strong evidence in identity proofing. Watermarks are embedded in images used in secure identity verification and use applications to verify the rightful owner of an evidence document. Some applications, for instance, use the applicant’s fingerprint information to watermark the image. Training of operators is also important for CSP’s to be able to expect and recognize the presence of a watermark in a piece of evidence that normally carries it, or notice when the watermark is absent for a simple binary fraud checking measure.
 
