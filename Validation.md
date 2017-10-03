@@ -75,4 +75,7 @@ The validation process consists of two steps as we mentioned earlier: determinin
     - Confirming information from a machine-readable passport
     - Confirming information from a machine-readable driver’s license
 
+### Example: Validation
+
+To validate the identity the CSP must examine the documents collected during enrollment. Automated software (or an operator) will first check the security features on the document that has been uploaded by the applicant using the mobile application – holograms, secure inks and other devices – to check that it is genuine. Second, the CSP will also validate the personalized information on the card – name, date of birth, address, driver’s license or passport number, account number – and make sure that the information in the documents is valid.
 
