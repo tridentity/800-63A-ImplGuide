@@ -38,3 +38,28 @@ If a CSP allows in-person registration, it may consider, for efficiency and conv
 ###	Paper Form
 
 In the event an applicant does not have access to a connected device, is unable to use a computer, or otherwise wishes to submit the biographic information via a non-digital medium, they may complete a paper form instead. Written entry of information should be avoided if it is possible to capture information via multiple choice selections and the applicant should be instructed to print clearly to reduce inaccuracies resulting from the interpretation of handwriting. Some organizations require enrollment via paper form only in person while some implementations may allow the applicant to complete the form remotely and mail it in. It is also important to note that in many use cases applicants are asked to fill out a paper form with sensitive personal information and mail it to the requesting organization. Precautions should be taken minimize that risk and maintain transparency byinforming the individual of the risks while the paper form is in transit.
+
+### Example: Evidence Selection and Enrollment
+
+Having determined level-2 assurance will be sought, the CSP e-mails applicants to inform them that enrollment can be done remotely using its secure mobile application through which the service or solution is delivered.
+
+The CSP considers the options in the following diagram and designs the identity proofing process workflow.
+
+The landing page of the application, shown in the following figure, instructs the applicant to login or sign-up using email. A new applicant is instructed to provide either:
+
+1.	Full name, address, DOB and a photograph of their US passport’s ID page, OR
+2.	Full name, address, DOB, a photograph of their Driver’s License, the ABA/routing number and account number for a bank account and the name, number, expiration date and security code for a credit card.
+
+![Figure 4: Mobile Application's Document Instructions Page](https://github.com/usnistgov/800-63A-ImplGuide/blob/master/media/workflow-2-instructions.png)
+
+**Figure 4:** Mobile Application's Document Instructions Page
+
+The applicant is told explicitly that the passport and driver’s license images will be used for identity verification only and once verified, document images will be deleted and they are not retained by the CSP. 
+
+The CSP then requests a picture of the applicant’s passport to be uploaded using the mobile application, or a picture of their driver’s license in addition to credit card and bank account information. The applicant also providers full name, address and date of birth for registration. These tasks, as shown on the mobile application, are illustrated in the following figure.
+
+Once enrollment is finished, the applicant is advised to await a confirmation message with 24 hours.
+
+![Figure 5: Document Capture in Enrollment](https://github.com/usnistgov/800-63A-ImplGuide/blob/master/media/workflow-3-enrollment.png)
+
+**Figure 5:** Document Capture in Enrollment
