@@ -69,8 +69,8 @@ Table 2 provides examples of evidence from each category of strength defined in 
 | --- | --- |
 | Unacceptable | Library Cards |
 | Weak | Organizational Membership Cards<br/>Birth Certificate<br/>Social Security Card |
-| Fair | Individual Tax Number<br/>Credit or Debit Card\br Bank Account Statement<br/>Utility Account Statement |
-| Strong | Real ID Driver’s License\br State ID |
+| Fair | Individual Tax Number<br/>Credit or Debit Card<br/> Bank Account Statement<br/>Utility Account Statement |
+| Strong | Real ID Driver’s License<br/>State ID |
 | Superior | FIPS 201 Compliant Personal Identification Verification Card (PIV, PIV-I, and CAC)<br/>National Passports<br/>Enhanced Driver’s License or Identification |
 
 **Table 2:** Examples of Identity Evidence
