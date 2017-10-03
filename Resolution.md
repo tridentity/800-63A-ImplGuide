@@ -131,3 +131,7 @@ If the CSP keeps separate updated totals of all successful and all failed answer
 </tbody></table>
 
 **Table 7:** KBV Pass/Fail Scoring
+
+![Figure 6: Resolution](https://github.com/usnistgov/800-63A-ImplGuide/blob/master/media/workflow-4-resolution.png)
+
+**Figure 6:** Resolution
