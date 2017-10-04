@@ -136,7 +136,7 @@ After enrollment, the CSP will resolve all core attributes collected from the ap
 
 In our IAL2 example, the CSP can leverage identity document image verification software to obtain the full name, address and DOB for an applicant from the image of their driver’s license or passport that they received via the app.
 
-The 24-hour period given to the applicant enables the CSP to handle any exceptions, or use human operators where intervention is necessary or automated verification software is not available. Once attribute information is produced from the document image, the CSP has two or more sets of attributes for the applicant –one from the application entries provided by the applicant, and one or more from the document(s).
+The 24-hour period given to the applicant enables the CSP to handle any exceptions (this could also accommodate the use of human operators where intervention is necessary but we assume for the sake of this example that automated verification software is not available). Once attribute information is produced from the document image, the CSP has two or more sets of attributes for the applicant –one from the application entries provided by the applicant, and one or more from the document(s).
 
 The CSP can then run a matching algorithm, as depicted in the following figure, to obtain a similarity score that reflects the extent to which the different sets of identity attributes resolve, and, comparing this against a threshold, decide success or failure.
 
