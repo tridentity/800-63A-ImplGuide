@@ -130,6 +130,8 @@ If the CSP keeps separate updated totals of all successful and all failed answer
 <tr><td><strong>3</strong></td><td>18</td><td>21</td><td>24</td><td>-9</td></tr>
 </tbody></table>
 
+**Table 7:** KBV Pass/Fail Scoring
+
 ### Example: Resolution
 
 After enrollment, the CSP will resolve all core attributes collected from the applicant into a single identity. In the case of paper/in-person applications some of the resolution steps may require human intervention.
@@ -139,8 +141,6 @@ In our IAL2 example, the CSP can leverage identity document image verification s
 The 24-hour period given to the applicant enables the CSP to handle any exceptions (this could also accommodate the use of human operators where intervention is necessary but we assume for the sake of this example that automated verification software is not available). Once attribute information is produced from the document image, the CSP has two or more sets of attributes for the applicant –one from the application entries provided by the applicant, and one or more from the document(s).
 
 The CSP can then run a matching algorithm, as depicted in the following figure, to obtain a similarity score that reflects the extent to which the different sets of identity attributes resolve, and, comparing this against a threshold, decide success or failure.
-
-**Table 7:** KBV Pass/Fail Scoring
 
 ![Figure 6: Resolution](https://github.com/usnistgov/800-63A-ImplGuide/blob/master/media/workflow-4-resolution.png)
 
