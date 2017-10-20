@@ -43,8 +43,6 @@ In the event an applicant does not have access to a connected device, is unable 
 
 Having determined level-2 assurance will be sought, the CSP e-mails applicants to inform them that enrollment can be done remotely using its secure mobile application through which the service or solution is delivered.
 
-The CSP considers the options in the following diagram and designs the identity proofing process workflow.
-
 The landing page of the application, shown in the following figure, instructs the applicant to login or sign-up using email. A new applicant is instructed to provide either:
 
 1.	Full name, address, DOB and a photograph of their US passport’s ID page, OR
