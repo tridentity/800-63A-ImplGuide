@@ -25,7 +25,9 @@ CSP’s should start with REAL-ID compliances of states and assess requirements 
 Per SP 800-63A section 4.5.1.5, CSPs should perform proofing in-person, however at IAL 2, remote proofing is allowable. Collection techniques should meet or exceed criteria to ensure secure high-quality data that is acceptable for validation in identity proofing. In what follows, we will provide examples of criteria that CSP’s should observe.
 
 Secure transmission of data is a typical concern and systems used by CSP’s should adopt baseline security controls. CSP’s should follow the guidance of documents such as NIST Special Publication 800-53 Revision 4, *Security and Privacy Controls for Federal Information Systems and Organizations (Appendix F)*, which presents a “catalog of security controls that provides a range of safeguards and countermeasures for organizations and information systems.”
+
 Camera resolution is a typical criterion in collecting images for identity proofing. It is important to note that camera resolution alone may not suffice as a criterion for image quality. Without further instructions specifying the size of the person’s face, hands, eye region, finger, etc., even the highest-resolution camera can result in images that are of insufficient quality despite best efforts and common sense of the collector. The example provided earlier for the U.S. Department of State’s passport application process is a useful guideline in providing specifications for capture.
+
 Ambient lighting conditions are also an important factor to consider while collecting data. Despite the ability of most modern camera equipment to adjust settings such as contrast or brightness automatically, unproctored collection may result in excessive ambient light and overexposure in outdoor settings, or dark, underexposed images if taken under low light, e.g. behind a computer desk. CSP’s should consider lighting conditions when collecting images or issuing instructions for collecting images.
 CSP’s should also consider other criteria such as the field of view and image obfuscation when developing collection techniques for identity proofing.
 
@@ -73,7 +75,26 @@ The validation process consists of two steps as we mentioned earlier: determinin
 - Checking if the identity evidence is valid
     - Confirming the accuracy of information including name, address, DoB with the issuing source
     - Confirming information from a machine-readable passport
-    - Confirming information from a machine-readable driver’s license
+    - Confirming information from a machine-readable driver’s license    
+    
+CSPs can leverage physical and digital security features to validate identity evidence. Examples of security features are provided in Table 3.
+
+| **Feature** | **Advantages** |
+| --- | --- |
+| Holographic Security Threads | Highly complex production processes make documents tough to counterfeit. |
+| Secure Ink | Durable and reliable bonding provides resistance against tampering and forgery. |
+| Dynamic Fluorescent Feature | Dynamic response generated in UV light at varying distances from the source is hard to duplicate by attackers. |
+| Ghost Image | Image duplicating applicant photo or other feature generated with UV ink can only be seen under UV light. |
+| Integrated Circuit with PKI Protection | Asymmetric cryptography protects data content. |
+| Digital Watermark | Documents signed by digital watermarking (DWM) (such as driver’s license images) can also be used by CSPs as a piece of strong evidence in identity proofing. Watermarks are embedded in images used in secure identity verification and use applications to verify the rightful owner of an evidence document. Some applications, for instance, use the applicant’s fingerprint information to watermark the image. |
+| Barcodes | Barcode embedded on the document can be used to carry data and validate strong evidence by CSPs that wish to validate evidence. |
+| Checksums | As a cryptographic application, the checksum is calculated by applying cryptographic algorithms to data in order to generate a hash, which is then used to validate the data. The generated hash is the checksum used for validation and the principle is that unauthorized parties would not be able to change the data without affecting the hash as they would not have visibility into the cryptographic algorithm or algorithms that were originally used by the provider to generate the hash. Checksums therefore provide a method to validate electronic evidence as well, whereby CSP’s can generate cryptographic checks to associate with documents used as evidence, which are then subject to a check for validation. This method can then be used to validate strong evidence. |
+
+**Table 3:** Physical and Digital Security Features
+
+Training of operators is also important for CSP’s to be able to expect and recognize the presence of a validating feature in a piece of evidence that normally carries it, and utilize specific knowledge or equipment to validate.
+
+It is also important to make the distinction between equipment and knowledge that is the patented intellectual property of a particular vendor and is protected by patent law, and equipment and knowledge (algorithms, workflows, systems) that is proprietary to the vendor, whose internal working mechanisms are not known to outside entities that are not bound by non-disclosure agreements. Measures should be taken to ensure that proprietary systems and equipment produce results that are trusted by the CSP.
 
 ### Example: Validation
 
