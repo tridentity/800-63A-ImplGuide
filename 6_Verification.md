@@ -103,11 +103,3 @@ Limiting the number of consecutive unsuccessful verification attempts also helps
 CSP’s may require applicants to confirm their address, as outlined in SP800-63A. This is done in the form of an enrollment code sent by the CSP, intended for the applicant to receive at their address of record. Successful provision of the correct code by the applicant to the CSP serves to confirm the address provided by the applicant: The address binds the identity to the applicant’s record.
 
 An example is a scannable image or barcode that is unique to the enrollment, mailed to the applicant’s address of record. Successful scanning and verification of this image or barcode by a mobile application provided in the CSP’s workflow can be used for address confirmation.
-
-### Example: Verification
-
-The CSP completes the identity proofing process by verification. In this step, the identity of the actual individual applying is verified for a match against the individual whose identity information is built using resolution and validation of the documents provided in enrollment. A general outline for the verification process has been shown in the following figure. In our example, the CSP uses the mobile application to perform face verification of the individual which compares a face image submitted by the applicant in the final stage of identity proofing against face images in the background records of the applicant’s driver’s license or passport. For enhanced security, the CSP can in addition use the bank account information provided by the applicant to submit two micro deposits of less than $1 each, and then ask the applicant to complete the final verification step by providing the micro deposit amounts in cents, appended into a 4-digit sequence. Upon successful verification the CSP will issue credentials to the applicant, who can subsequently start using the service.
-
-![Figure 7: Verification](https://github.com/usnistgov/800-63A-ImplGuide/blob/master/media/workflow-5-verification.png)
-
-**Figure 7:** Verification
