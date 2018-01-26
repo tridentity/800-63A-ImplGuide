@@ -8,13 +8,13 @@ Additionally, agencies and service providers are expected to employ appropriatel
 
 ## Selecting an IAL
 
-NIST includes a sample process flow framework around identity assurance levels and provides selection guidance in SP800-63A. Assurance in a subscriber’s identity is described using one of three Identity Assurance Levels, or IALs. The IAL selection process, as presented in NIST800-63-3, has been illustrated in Figure 2.
+NIST SP 800-3-3 includes a sample process flow framework around identity assurance levels and provides selection guidance in SP800-63A. Assurance in a subscriber’s identity is described using one of three Identity Assurance Levels, or IALs. The IAL selection process, as presented in NIST800-63-3, has been illustrated in Figure 2.
 
 ![Figure 2: Selecting an IAL](https://github.com/usnistgov/800-63-3/blob/nist-pages/sp800-63-3/media/IAL_CYOA.png)
 
 **Figure 2:** Selecting an IAL
 
-In some system architectures, it may not be ideal to consider the identity assurance level requirements for the entire system alone and the proper course of action would be to identify and isolate components of the system for which it would make more logical sense to evaluate identity assurance levels separately. Similarly, users and operators of a systems may have broadly varying levels of access and authorization requirements and it would be more sensible to recognize the different identity assurance levels organizations should seek in identity proofing these individuals.
+In some system architectures, it may not be ideal to consider the identity assurance level requirements for the entire system alone and the proper course of action would be to identify and isolate components of the system for which it would make more logical sense to evaluate identity assurance levels separately. Similarly, users and operators of a systems may have broadly varying levels of access and authorization requirements and it would be more sensible to recognize the different identity assurance levels organizations should seek in identity proofing these different categories of individuals.
 
 There is no requirement of proof for an applicant’s identity for IAL1 and any attributes that are provided in the authentication process are either self-asserted, or should be treated as self-asserted.
 
