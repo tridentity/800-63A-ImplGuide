@@ -19,11 +19,11 @@ The applicant is told explicitly that the passport and driver’s license images
 
 The CSP then requests, as shown in Figure 4, a picture of the applicant’s passport to be uploaded using the mobile application, or a picture of their driver’s license in addition to credit card and bank account information. The applicant also providers full name, address and date of birth for registration. These tasks, as shown on the mobile application, are illustrated in Figure 5.
 
-![Figure 5: Document Capture in Enrollment](media/workflow-3-enrollment.png)
+![Figure 5: Document Capture](media/workflow-3-enrollment.png)
 
-**Figure 5:** Document Capture in Enrollment
+**Figure 5:** Document Capture
 
-Once enrollment is finished, the applicant is advised to await a confirmation message.
+Once document capture is finished, the applicant is advised to await a confirmation message.
 
 ## Resolution
 
@@ -41,11 +41,11 @@ The CSP can then run a matching algorithm, as depicted in the following figure, 
 
 ## Validation
 
-To validate the identity the CSP must examine the documents collected during enrollment. Automated software (or an operator) will first check the security features on the document that has been uploaded by the applicant using the mobile application – holograms, secure inks and other devices – to check that it is genuine. Second, the CSP will also validate the personalized information on the card – name, date of birth, address, driver’s license or passport number, account number – and make sure that the information in the documents is valid.
+To validate the identity the CSP must examine the documents collected from the applicant. Automated software (or an operator) will first check the security features on the document that has been uploaded by the applicant using the mobile application – holograms, secure inks and other devices – to check that it is genuine. Second, the CSP will also validate the personalized information on the card – name, date of birth, address, driver’s license or passport number, account number – and make sure that the information in the documents is valid.
 
 ## Verification
 
-The CSP completes the identity proofing process by verification. In this step, the identity of the actual individual applying is verified for a match against the individual whose identity information is built using resolution and validation of the documents provided in enrollment. A general outline for the verification process has been shown in the following figure. In our example, the CSP uses the mobile application to perform face verification of the individual which compares a face image submitted by the applicant in the final stage of identity proofing against face images in the background records of the applicant’s driver’s license or passport. For enhanced security, the CSP can in addition use the bank account information provided by the applicant to submit two micro deposits of less than $1 each, and then ask the applicant to complete the final verification step by providing the micro deposit amounts in cents, appended into a 4-digit sequence. Upon successful verification the CSP will issue credentials to the applicant, who can subsequently start using the service.
+The CSP completes the identity proofing process by verification. In this step, the identity of the actual individual applying is verified for a match against the individual whose identity information is built using resolution and validation of the documents provided. A general outline for the verification process has been shown in the following figure. In our example, the CSP uses the mobile application to perform face verification of the individual which compares a face image submitted by the applicant in the final stage of identity proofing against face images in the background records of the applicant’s driver’s license or passport. For enhanced security, the CSP can in addition use the bank account information provided by the applicant to submit two micro deposits of less than $1 each, and then ask the applicant to complete the final verification step by providing the micro deposit amounts in cents, appended into a 4-digit sequence. Upon successful verification the CSP will issue credentials to the applicant, who can subsequently start using the service.
 
 ![Figure 7: Verification](https://github.com/usnistgov/800-63A-ImplGuide/blob/master/media/workflow-5-verification.png)
 
