@@ -14,7 +14,7 @@ In comparison, the IAL 3 proofing requirements, provided in Section 4.5.2 of the
 
 In some cases, a driver’s license may constitute a single piece of definitive evidence. This would be a result of the assurance level requirements of the identity proofing process of the driver’s license in question. We have provided in Appendix  9.1 the driver’s license application document requirements for several REAL ID-compliant and extension states. An example, Maryland, is also provided below. The flowchart developed using the state’s website shows that applicants can provide the state Motor Vehicle Administration a U.S. Birth Certificate and a Social Security Card, a combination allowed by the ruleset. These requirements indicate that a driver’s license is obtained using two pieces of weak evidence for proofing and it therefore should not considered as a definitive piece of evidence in a CSP’s identity proofing process.
 
-CSP’s should start with REAL-ID compliances of states and assess requirements more specifically in order to determine if a driver’s license is acceptable for their desired identity level of assurance. Additionally, at any given time, most, if not all, states have more than one type of driver’s license in circulation, not all of which adhere to the same identity proofing requirements. This should also be taken into account while considering states’ driver’s licenses as evidence.
+CSPs should start with REAL-ID compliances of states and assess requirements more specifically in order to determine if a driver’s license is acceptable for their desired identity level of assurance. Additionally, at any given time, most, if not all, states have more than one type of driver’s license in circulation, not all of which adhere to the same identity proofing requirements. This should also be taken into account while considering states’ driver’s licenses as evidence.
 
 | **Example** |
 | --- |
@@ -22,11 +22,11 @@ CSP’s should start with REAL-ID compliances of states and assess requirements 
 
 ## Techniques for Collection
 
-Per SP 800-63A section 4.5.1.5, CSPs should perform proofing in-person, however at IAL 2, remote proofing is allowable. Collection techniques should meet or exceed criteria to ensure secure high-quality data that is acceptable for validation in identity proofing. In what follows, we will provide examples of criteria that CSP’s should observe.
+Per SP 800-63A section 4.5.1.5, CSPs should perform proofing in-person, however at IAL 2, remote proofing is allowable. Collection techniques should meet or exceed criteria to ensure secure high-quality data that is acceptable for validation in identity proofing. In what follows, we will provide examples of criteria that CSPs should observe.
 
 Secure transmission of data is a typical concern and systems used by CSP’s should adopt baseline security controls. CSP’s should follow the guidance of documents such as NIST Special Publication 800-53 Revision 4, *Security and Privacy Controls for Federal Information Systems and Organizations (Appendix F)*, which presents a “catalog of security controls that provides a range of safeguards and countermeasures for organizations and information systems.”
 
-Camera resolution is a typical criterion in collecting images for identity proofing. It is important to note that camera resolution alone may not suffice as a criterion for image quality. Without further instructions specifying the size of the person’s face, hands, eye region, finger, etc., even the highest-resolution camera can result in images that are of insufficient quality despite best efforts and common sense of the collector. The example provided earlier for the U.S. Department of State’s passport application process is a useful guideline in providing specifications for capture.
+Camera resolution is a typical criterion in collecting images for identity proofing. It is important to note that camera resolution alone may not suffice as a criterion for image quality. Without further instructions specifying the size of the person’s face, hands, eye region, finger, etc., even the highest-resolution camera can result in images that are of insufficient quality despite best efforts and common sense of the collector.
 
 Ambient lighting conditions are also an important factor to consider while collecting data. Despite the ability of most modern camera equipment to adjust settings such as contrast or brightness automatically, unproctored collection may result in excessive ambient light and overexposure in outdoor settings, or dark, underexposed images if taken under low light, e.g. behind a computer desk. CSP’s should consider lighting conditions when collecting images or issuing instructions for collecting images.
 CSP’s should also consider other criteria such as the field of view and image obfuscation when developing collection techniques for identity proofing.
@@ -53,9 +53,9 @@ At IAL 2, CSP’s may allow applicants to present evidence digitally to facilita
 | --- |
 | If  an applicant provides a digital image of their driver’s license, the system accepting that image may be able to automatically read the ID number or barcode and perform a lookup in the issuing state’s motor vehicles department to confirm its authenticity. |
 
-CSP’s should also examine the evidence visually. Techniques for remote validation should be comparable to in-person validation. Table 5-2 in SP800-63A describe methods for validating identity evidence at each strength.  
+CSPs should also examine the evidence visually. Techniques for remote validation should be comparable to in-person validation. Table 5-2 in SP800-63A describe methods for validating identity evidence at each strength.  
 
-The validation process consists of two steps as we mentioned earlier: determining whether the evidence is genuine and checking if it is valid. Accordingly, CSP’s may use the following techniques to validate evidence in identity proofing:
+The validation process consists of two steps as we mentioned earlier: determining whether the evidence is genuine and checking if it is valid. Accordingly, CSPs may use the following techniques to validate evidence in identity proofing:
 
 - Determining whether the evidence is genuine
     - Examination of the security features of a physical document
@@ -73,7 +73,7 @@ The validation process consists of two steps as we mentioned earlier: determinin
         - Validating the checksum
         - Confirming the correctness of the signing key with respect to evidence type and source
 - Checking if the identity evidence is valid
-    - Confirming the accuracy of information including name, address, DoB with the issuing source
+    - Confirming the accuracy of information including name, address, DOB with the issuing source
     - Confirming information from a machine-readable passport
     - Confirming information from a machine-readable driver’s license    
     
