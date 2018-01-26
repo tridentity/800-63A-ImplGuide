@@ -95,8 +95,3 @@ CSPs can leverage physical and digital security features to validate identity ev
 Training of operators is also important for CSP’s to be able to expect and recognize the presence of a validating feature in a piece of evidence that normally carries it, and utilize specific knowledge or equipment to validate.
 
 It is also important to make the distinction between equipment and knowledge that is the patented intellectual property of a particular vendor and is protected by patent law, and equipment and knowledge (algorithms, workflows, systems) that is proprietary to the vendor, whose internal working mechanisms are not known to outside entities that are not bound by non-disclosure agreements. Measures should be taken to ensure that proprietary systems and equipment produce results that are trusted by the CSP.
-
-### Example: Validation
-
-To validate the identity the CSP must examine the documents collected during enrollment. Automated software (or an operator) will first check the security features on the document that has been uploaded by the applicant using the mobile application – holograms, secure inks and other devices – to check that it is genuine. Second, the CSP will also validate the personalized information on the card – name, date of birth, address, driver’s license or passport number, account number – and make sure that the information in the documents is valid.
-
