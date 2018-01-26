@@ -1,12 +1,25 @@
 # Resolution
 
-The goal of resolution is to use the information provided by the applicant to resolve them to a unique, claimed identity. This process may be started automatically upon submission of biographic information during the enrollment process. Unlike validation and verification, the resolution process is focused on ensuring that the information being provided is representative of a real unique individual that can be distinguished from other records to enable the verification of associated attributes and identity evidence. It, in and of itself, is not intended to provide confidence that the individual presenting the information is who they claim to be.
+The goal of resolution is to map the information provided by the applicant into a unique, claimed identity. This process may be started automatically upon submission of biographic information during the enrollment process. Unlike validation and verification, the resolution process is focused on ensuring that the information being provided is representative of a real unique individual that can be distinguished from other records to enable the verification of associated attributes and identity evidence. It, in and of itself, is not intended to provide confidence that the individual presenting the information is who they claim to be.
 
 Agencies and CSPs should take into account factors specific to the populations that they serve, or intend to serve, to help design enrollment and proofing processes to allow for the collection of necessary information to uniquely distinguish between individual users—without collecting unnecessary sensitive information. As SP800-63A emphasizes, effective identity resolution uses the smallest set of attributes necessary to resolve to a unique individual. Where possible non-sensitive information should be added to collection if additional attributes are needed to help differentiate users. For example, a population of former military personnel will provide different details and require different resolution data sources than foreign nationals.
 
-Sets and combinations of core and supplemental attributes provide varying levels of effectiveness, sensitivity, availability and reliability. An assessment of such metrics for core and supplemental identity attributes, e.g. name, address, date and place of birth, mother’s maiden name and gender, can be found in NASPO-IDPV-60 by the American Security Products Organization’s Identity Proofing and Verification (IDPV) working group (NASPO-IDPV-60. Establishment of Core Identity Attribute Sets and Supplemental Identity Attributes, Report of the IDPV Identity Resolution Project, Feb. 17, 2014). Organizations that seek a balance between these metrics and the necessity of the attributes in their selection process in order for their identity proofing design to adhere to their assurance level requirements may use such guidelines.
+Sets and combinations of core and supplemental attributes provide varying levels of effectiveness, sensitivity, availability and reliability. An assessment of such metrics for core and supplemental identity attributes, e.g. name, address, date and place of birth, mother’s maiden name and gender, can be found in NASPO-IDPV-60 by the American Security Products Organization’s Identity Proofing and Verification (IDPV) working group (NASPO-IDPV-60. Establishment of Core Identity Attribute Sets and Supplemental Identity Attributes, Report of the IDPV Identity Resolution Project, Feb. 17, 2014). The analysis conducted in this study provides interesting results in terms of the effectiveness of combining attributes for resolution and also shows that there are diminishing returns to increasing the number of core attributes collected from applicants, as evidenced in Table 7. Organizations that seek a balance between these metrics and the necessity of the attributes in their selection process in order for their identity proofing design to adhere to their assurance level requirements may use such guidelines.
 
-Additional attributes may also exist in special data sets that are proprietary or private, requiring the collection of more than biographic information.
+| **Core Attributes** | *Set 1* | *Set 2* | *Set 3* | *Set 4* | *Set 5* |
+| --- | --- | --- | --- | --- | --- |
+| First Name | Y | Y | Y | Y | Y |
+| Last Name |  | Y | Y | Y | Y |
+| Middle Initial |  |  |  |  | Y |
+| Full DOB |  |  | Y |  | Y |
+| Partial DOB (YYYY or MMDD) |  | Y |  |  |  |
+| Year of Birth | Y |  |  |  |  |
+| Partial Address (Zip or City/State) |  | Y |  | Y |  |
+| Full Address |  |  |  |  | Y |
+| Last 4 Digits of SSN |  |  |  | Y | Y |
+| Estimated Resolution Effectiveness (%) | 2.56 | 98.73 | 96.29 | 96.65 | 99.89 |
+
+**Table 7:** Estimated Resolution Effectiveness for Various Attribute Combination Scenarios
 
 To reduce inaccuracies and increase efficiency of the resolution process, CSPs have historically employed knowledge based verification (KBV) or matching algorithms. We will examine the two in the following subsections.
 
