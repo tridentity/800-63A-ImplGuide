@@ -55,28 +55,6 @@ If the applicant suspends and resumes the process they should either be presente
 If the CSP allows the applicant to suspend and resume the process the CSP should not reveal whether the applicant correctly answered any of the previous questions.
 The CSP should only allow the applicant to suspend and resume the process twice, totaling a maximum of three attempts. If the CSP presents the same set of questions upon resumption, further questions should be introduced to prevent attackers from using process to extract information and answer previously given questions.
 If the applicant fails to return or fails to complete KBV upon return, KBV should be deemed failed.
-To calculate the KBV score for the applicant’s answers to a series of questions, let us use the scoring table shown in Table 6.
-
-<table><tbody>
-<tr><th>KBV Quality</th><th colspan=2>Unprompted</th><th colspan=2>Prompted</th><tr>
-<tr><td></td><td>Success</td><td>Failure</td><td>Success</td><td>Failure</td></tr>
-<tr><td><strong>Low</strong></td><td>2</td><td>-5</td><td>1</td><td>-6</td></tr>
-<tr><td><strong>Medium</strong></td><td>4</td><td>-4</td><td>3</td><td>-5</td></tr>
-<tr><td><strong>High</strong></td><td>6</td><td>-3</td><td>5</td><td>-4</td></tr>
-</tbody></table>
-
-**Table 6:** KBV Scoring Profile
-
-If the CSP keeps separate updated totals of all successful and all failed answers through the KBV process, they can use the following table to deem the user to pass KBV if they achieve a success total score for either of the three scenarios in Table 7 before achieving a failure score seen in the rightmost column of the table for the selected IAL. 
-
-<table><tbody>
-<tr><th>IAL</th><th colspan=3>Success Total</th><th>Failure Total</th><tr>
-<tr><td></td><td>1st Attempt</td><td>1st Resume</td><td>2nd Resume</td><td></td></tr>
-<tr><td><strong>2</strong></td><td>8</td><td>11</td><td>15</td><td>-8</td></tr>
-<tr><td><strong>3</strong></td><td>18</td><td>21</td><td>24</td><td>-9</td></tr>
-</tbody></table>
-
-**Table 7:** KBV Pass/Fail Scoring
 
 ## Biometric Capture
 
