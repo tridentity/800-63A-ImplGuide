@@ -54,7 +54,7 @@ It is also important to make the distinction between equipment and knowledge tha
 
 ## Validation Strength
 
-When validating - agencies must do so consistent with the level of strength appropriate based on the strengh of the evidence. For example, a piece of evidence charaterized as being "strong" evidence must be validated at the same level of strenght. NIST SP 800-63A provides the following requirements for achieving different validation strenghts:  
+When validating - agencies must do so consistent with the level of strength appropriate based on the strengh of the evidence. For example, a piece of evidence characterized as being "strong" evidence must be validated at the same level of strength. NIST SP 800-63A provides the following requirements for achieving different validation strenghts:  
 
 |Strength|Method(s) performed by the agency|
 |:---:|:------------------------------|
