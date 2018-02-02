@@ -1,20 +1,16 @@
 # Attributes and Evidence
 
-Beside the information provided by the applicant –-please note that the word “information” here is intended to convey information provided in the content of an evidence document, and not solely knowledge or the applicant’s say-so, which alone is not sufficient for proofing—-, proofing can also require evidence from an applicant as dictated by the requirements of the CSP. 
+Once the identity assurance level for a system or subsystem has been selected, the agencies determine the attributes and identity evidence required to satisfy their use case.
 
-Once the identity assurance level for a system or subsystem has been selected, the CSP can determine the attributes and identity evidence required to satisfy their use case.
+The first step to proof an individual is to collect the core attributes necessary to establish a unique representation of the individual’s identity for use during the proofing process. The collection of these core attributes is intended to help resolve applicants to a single unique entity and to enable the appropriate level of verification and validation to support system risk and meet IAL requirements. Some commonly used core attributes are name, date of birth, address, phone number and e-mail address.
 
-The first step to proof an individual is to collect the core attributes necessary to establish a unique representation of the individual’s identity for use during the proofing process. The core attributes, regardless of IAL, should be collected in accordance with the requirements identified in SP800-63A. The collection of these core attributes is intended to help the CSP resolve applicants to a single unique entity and to enable the appropriate level of verification and validation to support system risk and meet IAL requirements. Some commonly used core attributes are name, date of birth, address, phone number and e-mail address.
+Identity evidence comprises physcial or digital artifacts used by a subscriber to prove the real-world existence of a claimed identity. Provided evidence must contain features that support both validation (confirmed to be genuine and accurate) and verification (demonstrated to associated with the subscriber) at the appropriate strengths for a defined use case.  
 
-There should be a good balance between executing the proofing process and minimizing the burden on the applicant. 
-
-Submitting evidence in multiple stages can become burdensome for an applicant. It is important to consider collecting the appropriate evidence up-front to avoid requiring the user to perform multiple interactions in order to establish an account.
-
-It is ultimately up to the CSP or agency to determine which biographic information to collect about an applicant. CSPs should take caution in collecting and utilizing a minimally required set of attributes and store attributes on a strictly need-to-know basis. 
+It is ultimately up to the agency to determine which biographic information to collect about an applicant to meet idetntity resolution needs. Caution should be taken in collecting, utilizing, and storing a minimally required set of attributes. Furthermore, in accordance with requirements in 800-63A, notice must be provided to users about what information is collected, why it is collected, and what will be done with it. 
 
 ## Types of Evidence
 
-Table 2 provides examples of evidence from each category of strength defined in the aforementioned identity evidence quality table in 800-63A.
+Table 2 provides examples of evidence from each category of strength defined in the aforementioned identity evidence quality table in 800-63A. 
 
 
 | **Strength** | **Qualities of Identity Evidence** | **Examples** |
@@ -27,9 +23,7 @@ Table 2 provides examples of evidence from each category of strength defined in 
 
 **Table 2:** Examples of Identity Evidence
 
-Please note that while examples of unacceptable and weak evidence are presented here for the sake of completeness, CSPs should nevertheless be careful in requiring such documents as identity evidence. Moreover, CSPs are cautioned to review guidance on international or common names and the event of a name change while considering evidence for strength.
-
-A CSP can collect an applicant’s social security number as additional information, but two other forms of identification should still be collected to which information in the social security number should still resolve. An example selection of evidence documents for a CSP to consider in an IAL2 process are shown in the following figure.
+Please note that while examples of unacceptable and weak evidence are presented here for the sake of completeness, agencies should nevertheless be careful in requiring such documents as identity evidence. Moreover, agencies are cautioned to review guidance on international or common names and the event of a name change while considering evidence for strength. An example selection of evidence documents for an agency to consider in an IAL2 process are shown in the following figure.
 
 ![Figure 3: Selecting Evidence](media/workflow-1-evidence-selection.png)
 
@@ -37,30 +31,30 @@ A CSP can collect an applicant’s social security number as additional informat
 
 ## Collection Techniques
 
-CSPs may use multiple techniques for collecting attributes and evidence in different media. These pertain to digital or other methods of collection that result in the transmission of information from the applicant to the CSP. As noted earlier, while the processes laid out in this guide suggest multiple phases of collection, it is possible that agencies or CSPs could choose to collect core attributes, additionally required attributes, and evidence during the same event. Multiple techniques may also be combined based on agency requirements, user needs, and the overall approved proofing process flow.
+Agencies may use multiple techniques for collecting attributes and evidence in different media. These pertain to digital or other methods of collection that result in the transmission of information from the applicant to the agency. As noted earlier, while the processes laid out in this guide suggest multiple phases of collection, it is possible that agencies or agencies could choose to collect core attributes, additionally required attributes, and evidence during the same event. Multiple techniques may also be combined based on agency requirements, user needs, and the overall approved proofing process flow.
+
+Submitting evidence and attributes in multiple stages can become burdensome for an applicant. It is important to consider collecting the appropriate evidence up-front to avoid requiring the user to perform multiple interactions in order to establish an account. There should be a good balance between executing the proofing process and minimizing the burden on the applicant.
 
 ### Digital
 
 The initial information may be captured via an online form directly from the applicant that is being proofed.
-In other cases, the CSP may allow the applicant to provide some documents via remote means, such as submitting an image of an identification document like a passport or a driver’s license. This workflow requires the utilization of some form of digital capture, such as a camera or a document scanner. Systems with optical character recognition capabilities that allow fields in a document to be pre-populated upon scanning should also allow the applicant to review and validate the information as correct.
+In other cases, the agency may allow the applicant to provide some documents via remote means, such as submitting an image of an identification document like a passport or a driver’s license. This workflow requires the utilization of some form of digital capture, such as a camera or a document scanner. Systems with optical character recognition capabilities that allow fields in a document to be pre-populated upon scanning should also allow the applicant to review and validate the information as correct. Some agencies may choose to enforce requirements more directly by providing mobile applications for collection –e.g. camera capture functions that provide an overlay and illumination check feature to ensure applicants provide pictures with correct size and brightness
 
-Some of the methods with which a CSP can digitally capture evidence are listed in Table 3.
+Some of the methods with which an agency can digitally capture evidence are listed in Table 3.
 
 | **Method** | **Device** | **Information** |
 | --- | --- | --- |
-| Photo Capture | Camera | This can be used to capture an applicant’s photo or the image of an evidence such as a driver’s license. CSPs can consider pictures at 300 dpi or above to be of sufficient resolution. |
+| Photo Capture | Camera | This can be used to capture an applicant’s photo or the image of an evidence such as a driver’s license. Agencies can consider pictures at 300 dpi or above to be of sufficient resolution. |
 | Document Capture | Scanner | This can capture a document, which is compared against a known template by automated software to extract information. For optical character recognition, scans at high than 300 dpi are typically considered to be of sufficient quality. |
 | Barcode | Scanner | Commercial off-the-shelf scanners can capture and extract information from standardized barcodes embedded on identity evidence. |
-| UV Light | Lamp/Reader | Certain document features can only be detected under UV light and therefore require specialized equipment for the CSP to validate or otherwise capture information. |
+| UV Light | Lamp/Reader | Certain document features can only be detected under UV light and therefore require specialized equipment for the agencies to validate or otherwise capture information. |
 
-**Table 3** Digital Evidence Capture Methods
-
-Some CSPs may choose to enforce requirements more directly by providing mobile applications for collection –e.g. camera capture functions that provide an overlay and illumination check feature to ensure applicants provide pictures with correct size and brightness. For passport applications, the U.S. Department of State requires the photograph to be submitted physically as a printed picture, but also provides guidelines for applicants that choose to collect and submit their own printed pictures after digitally creating them.
+**Table 3** Digital Collection Methods
 
 ###	In-Person
 
-If a CSP allows in-person registration, it may consider, for efficiency and convenience purposes, executing additional steps in the process, such as evidence validation, at the time of registration. The CSP may provide kiosks to allow applicants to enter their information directly. Alternatively, users may meet with a representative of the CSP to allow them to enter the applicant’s information on their behalf. Note—when this is done it is important the process is conducted in a manner that allows the individual to verify their information has been accurately captured and input into the collection system. Training should be provided for all CSP representatives to ensure that they are aware of organizational and federal policy concerning privacy and user experience.
+If an agency allows in-person registration, it may consider, for efficiency and convenience purposes, executing additional steps in the process, such as evidence validation, at the time of registration. The agency may provide kiosks to allow applicants to enter their information directly. Alternatively, users may meet with a representative of the agency to allow them to enter the applicant’s information on their behalf. Note—when this is done it is important the process is conducted in a manner that allows the individual to verify their information has been accurately captured and input into the collection system. Training should be provided for all agency representatives to ensure that they are aware of organizational and federal policy concerning privacy and user experience.
 
 ###	Paper Form
 
-In the event an applicant does not have access to a connected device, is unable to use a computer, or otherwise wishes to submit the biographic information via a non-digital medium, the CSP may offer the option to complete a paper form instead. Written entry of information should be avoided if it is possible to capture information via multiple choice selections and the applicant should be instructed to print clearly to reduce inaccuracies resulting from the interpretation of handwriting. Some organizations require enrollment via paper form only in person while some implementations may allow the applicant to complete the form remotely and mail it in. It is also important to note that in many use cases applicants are asked to fill out a paper form with sensitive personal information and mail it to the requesting organization. Precautions should be taken minimize that risk and maintain transparency by informing the individual of the risks while the paper form is in transit.
+In the event an applicant does not have access to a connected device, is unable to use a computer, or otherwise wishes to submit the biographic information via a non-digital medium, the agency may offer the option to complete a paper form instead. Written entry of information should be avoided if it is possible to capture information via multiple choice selections and the applicant should be instructed to print clearly to reduce inaccuracies resulting from the interpretation of handwriting. Some organizations require enrollment via paper form only in person while some implementations may allow the applicant to complete the form remotely and mail it in. It is also important to note that in many use cases applicants are asked to fill out a paper form with sensitive personal information and mail it to the requesting organization. Precautions should be taken minimize that risk and maintain transparency by informing the individual of the risks while the paper form is in transit.

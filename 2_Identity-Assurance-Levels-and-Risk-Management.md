@@ -8,16 +8,16 @@ Additionally, agencies and service providers are expected to employ appropriatel
 
 ## Selecting an IAL
 
-NIST SP 800-3-3 includes a sample process flow framework around identity assurance levels and provides selection guidance in SP800-63A. Assurance in a subscriber’s identity is described using one of three Identity Assurance Levels, or IALs. The IAL selection process, as presented in NIST800-63-3, has been illustrated in Figure 2.
+NIST SP 800-63-3 includes a sample process flow for selection of identity assurance levels. Assurance in a subscriber’s identity is described using one of three IALs. The IAL selection process, as presented in NIST800-63-3, has been illustrated in Figure 2.
 
 ![Figure 2: Selecting an IAL](https://github.com/usnistgov/800-63-3/blob/nist-pages/sp800-63-3/media/IAL_CYOA.png)
 
 **Figure 2:** Selecting an IAL
 
-In some system architectures, it may not be ideal to consider the identity assurance level requirements for the entire system alone and the proper course of action would be to identify and isolate components of the system for which it would make more logical sense to evaluate identity assurance levels separately. Similarly, users and operators of a systems may have broadly varying levels of access and authorization requirements and it would be more sensible to recognize the different identity assurance levels organizations should seek in identity proofing these different categories of individuals.
+**IAL 1:** There is no requirement of proof for an applicant’s identity and any attributes that are provided in the authentication process are either self-asserted, or should be treated as self-asserted.
 
-There is no requirement of proof for an applicant’s identity for IAL1 and any attributes that are provided in the authentication process are either self-asserted, or should be treated as self-asserted.
+**IAL 2:** Identity proofing is required with evidence that supports real-world existence of the claimed identity and verifies the association between the applicant and the real-world identity. Identity proofing can be done in person or remotely and attributes may be asserted by agencies to RPs for verification in support of pseudonymous identity.
 
-For IAL2, identity proofing is required with evidence that supports real-world existence of the claimed identity and verifies the association between the applicant and the real-world identity. At IAL2, identity proofing can be done in person or remotely and attributes may be asserted by CSPs to RPs for verification in support of pseudonymous identity.
+**IAL 3:** Identity proofing is required to be done in person; attributes must be verified by an authorized and trained representative of the agency, and agencies may assert attributes to RPs for verification in support of pseudonymous identity.
 
-Identity proofing is required to be done in person in IAL3; attributes must be verified by an authorized and trained representative of the CSP, and CSPs may assert attributes to RPs for verification in support of pseudonymous identity.
+In some system architectures, a single IAL for the entire system may not be sufficient to effectively mitigate risk. In these instances  proper course of action would be to identify and isolate components of the system and determine individual component assurance levels. Similarly, users and operators of a systems may have varying levels of access and authorization requirements necessitating different IALs based on priveleges, access levels, or authorizations. Agencies should consider the selecetion of IALs based on the context of specific systems, applications, and user bases - rather than attempting to implement a general set of proofing controls. 
