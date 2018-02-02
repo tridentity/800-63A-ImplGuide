@@ -6,7 +6,7 @@ The first step to proof an individual is to collect the core attributes necessar
 
 Identity evidence comprises physical or digital artifacts used by a subscriber to prove the real-world existence of a claimed identity. Provided evidence must contain features that support both validation (confirmed to be genuine and accurate) and verification (demonstrated to associated with the subscriber) at the appropriate strengths for a defined use case.  
 
-It is ultimately up to the agency to determine which biographic information to collect about an applicant to meet idetntity resolution needs. Caution should be taken in collecting, utilizing, and storing a minimally required set of attributes. Furthermore, in accordance with requirements in 800-63A, notice must be provided to users about what information is collected, why it is collected, and what will be done with it. 
+It is ultimately up to the agency to determine which biographic information to collect about an applicant to meet identity resolution needs. Caution should be taken in collecting, utilizing, and storing a minimally required set of attributes. Furthermore, in accordance with requirements in 800-63A, notice must be provided to users about what information is collected, why it is collected, and what will be done with it. 
 
 ## Types of Evidence
 
