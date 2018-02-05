@@ -41,16 +41,15 @@ Submitting evidence and attributes in multiple stages can become burdensome for 
 The initial information may be captured via an online form directly from the applicant that is being proofed.
 In other cases, the agency may allow the applicant to provide some documents via remote means, such as submitting an image of an identification document like a passport or a driver’s license. This workflow requires the utilization of some form of digital capture, such as a camera or a document scanner. Systems with optical character recognition capabilities that allow fields in a document to be pre-populated upon scanning should also allow the applicant to review and validate the information as correct. Some agencies may choose to enforce requirements more directly by providing mobile applications for collection –e.g. camera capture functions that provide an overlay and illumination check feature to ensure applicants provide pictures with correct size and brightness.
 
-Some of the methods with which an agency can digitally capture or validate evidence are listed in Table 3.
+Some of the methods with which an agency can digitally capture evidence are listed in Table 3.
 
 | **Method** | **Device** | **Information** |
 | --- | --- | --- |
 | Photo Capture | Camera | This can be used to capture an applicant’s photo or the image of an evidence such as a driver’s license. Agencies can consider pictures at 300 dpi or above to be of sufficient resolution. |
 | Document Capture | Scanner | This can capture a document, which is compared against a known template by automated software to extract information. For optical character recognition, scans at high than 300 dpi are typically considered to be of sufficient quality. |
 | Barcode | Scanner | Commercial off-the-shelf scanners can capture and extract information from standardized barcodes embedded on identity evidence. |
-| UV Light | Lamp/Reader | Certain document features can only be detected under UV light and therefore require specialized equipment for the agencies to validate or otherwise capture information. |
 
-**Table 3** Digital Collection and Validation Methods
+**Table 3** Digital Collection Methods
 
 ###	In-Person
 
