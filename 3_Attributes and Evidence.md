@@ -22,19 +22,7 @@ Table 2 provides examples of evidence from each category of strength defined in 
 
 **Table 2:** Strengths of Identity Evidence
 
-Please note that while examples of unacceptable and weak evidence are presented here for the sake of completeness, agencies should nevertheless be careful in requiring such documents as identity evidence. More detailed information about some of the examples of evidence in Table 2 has been provided in Table 3.
-
-| **Evidence Type** | **Strength** | **Description** |
-| --- | --- | --- |
-| United States Birth Certificate | Weak | Record that documents the birth of a child in the United States, thus establishing citizenship. Information includes, full name, time and date of birth, city or county of birth, and parents' full names.  |
-| Social Security Card | Fair | Card that displays the nine-digit number social security number issued to U.S. citizens, permanent residents, and temporary (working) residents. |
-| Enhanced Driver's License (EDL) | Strong | EDL is a card which functions both as driving licence and ID card with limited passport features issued in some states in the United States (Michigan, Minnesota, New York, Vermont, Washington) and some provinces in Canada[2] to people who are both citizens of the country and resident in the relevant region, compliant with the Western Hemisphere Travel Initiative. |
-| Department of Defense Common Access Card (CAC) | Strong | A common access card (CAC) is the stadard issue identification document issued to active-duty military personnel and other DoD personnel and is used for multifactor authentication and physical access. The CAC is not capable of holding biometric data. "The CAC enables encrypting and cryptographically signing email, facilitates the use of public key infrastructure (PKI) authentication tools, and establishes an authoritative process for the use of identity credentials." - Smart Card Alliance. Examples are: PIV card, Defense Biometric Identification System (DBIDS) Card |
-| Biometric passports that comply with ICAO 9303 (e-passports)  | Strong | The electronic passport, or ePassport, is the same as a traditional passport book with the addition of a small, embedded integrated circuit (i.e., smart card chip).  In the United States and many other countries, the chip is embedded in the back cover. While e-passports are capable of storing biometric template, standard versions only have a digital facial image stored in the chip. As of 2017 over 120 countries are using e-passports. |
-| EEA/EU Government issued identity cards that comply with Council Regulation (EC) No 2252/2004 that contain a biometric. | Strong | EU/EEA regulation that requires passport and travels documents meet the specified criteria.  |
-| FIPS 201 Compliant PIV Cards | Superior | United States federal smart card that meets the criteria established by FIPS 201 and uses fingerprint templates stored in the chip to make biometric comparisons.  |
-
-**Table 3:** Examples of Identity Evidence
+Please note that while examples of unacceptable and weak evidence are presented here for the sake of completeness, agencies should nevertheless be careful in requiring such documents as identity evidence.
 
 Agencies are cautioned to review guidance on international or common names and the event of a name change while considering evidence for strength. An example selection of evidence documents for an agency to consider in an IAL2 process are shown in the following figure.
 
