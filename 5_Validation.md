@@ -1,50 +1,35 @@
 # Validation 
-The goal of identity validation is to collect from the applicant the most appropriate identity evidence (for example, a passport or driver’s license) and determine its authenticity and accuracy. Identity validation is made up of two process steps: confirming the evidence is genuine and authentic, and confirming the data contained on the identity evidence is valid, current, and related to an actual, live individual. Regardless of level - steps must be taken to validate the evidence to prevent an attacker from fraudulently completing the identity proofing process by presenting forged or modified evidence. 
+The goal of identity validation is to collect from the applicant the most appropriate identity evidence (for example, a passport or driver’s license) and determine its authenticity and accuracy. Identity validation is made up of two process steps: confirming the evidence is genuine and authentic, and confirming the data contained on the identity evidence is valid, current, and related to an actual, live individual. Regardless of identity assurance level, steps must be taken to validate the evidence to prevent an attacker from fraudulently completing the identity proofing process by presenting forged or modified evidence. 
 
 ## Validation Techniques
 
-At IAL 2, agencies may allow applicants to present evidence digitally to facilitate remote proofing. Evidence presented in this manner will often be examined visually to determine if it appears fraudulent, counterfeit, or otherwise modified. The collection of evidence and validation of their authenticity may occur at the same time.
-
-| **Example** |
-| --- |
-| If  an applicant provides a digital image of their driver’s license, the system accepting that image may be able to automatically read the ID number or barcode and perform a lookup in the issuing state’s motor vehicles department to confirm its authenticity. |
+At IAL 2, agencies may allow applicants to present evidence digitally to facilitate remote proofing. Evidence presented in this manner will often be examined visually to determine if it appears fraudulent, counterfeit, or otherwise modified. The collection of evidence and validation of their authenticity may occur at the same time. For example, if an applicant provides a digital image of their driver’s license, the system accepting that image may be able to automatically read the ID number or barcode and perform a lookup in the issuing state’s motor vehicles department to confirm its authenticity.
 
 Agencies should also examine the evidence visually. Techniques for remote validation should be comparable to in-person validation. Table 5-2 in SP800-63A describe methods for validating identity evidence at each strength.  
 
-The validation process consists of two steps as we mentioned earlier: determining whether the evidence is genuine and checking if it is valid. Accordingly, agency may use the following techniques to validate evidence in identity proofing:
+The validation process consists of two steps as we mentioned earlier: determining whether the evidence is genuine and checking if it is valid.
 
-- Determining whether the evidence is genuine
-    - Examination of the security features of a physical document
-        - Ultraviolet desktop light and magnifier
-        - Inspection equipment that can assist in identifying forgeries or counterfeit documents
-    - Physical document containing cryptographically protected information
-        - Reading the embedded chip with a compatible reader
-        - Comparing the retrieved information with personal and evidence details on the document
-        - Confirming the digital signature
-        - Validating the signing key
-        - Confirming the correctness of the signing key with respect to evidence type and source
-    - Electronic evidence containing cryptographically protected information
-        - Confirming the electronic signature is correct
-        - Validating the signing key
-        - Validating the checksum
-        - Confirming the correctness of the signing key with respect to evidence type and source
-- Checking if the identity evidence is valid
-    - Confirming the accuracy of information including name, address, DOB with the issuing source
-    - Confirming information from a machine-readable passport
-    - Confirming information from a machine-readable driver’s license    
-    
-Agencies can leverage physical and digital security features to validate identity evidence. Examples of security features are provided in Table 3.
+To determine whether the evidence is genuine, agencies should examine the security features of the provided evidence. These could be the physical or digital security features of a document or the cryptographically protected information contained within a physical document, or the cryptographically protected information within an electronic document. In each of these cases, methods such as the physical validation of the security features or electronic validation of the cryptographically protected content should be utilized to declare the evidence genuine or not. Table 3 provides examples of physical and digital security features.
 
-| **Feature** | **Advantages** |
+To check if the identity evidence is valid, accuracy of the information such as that presented within the attributes should be confirmed with the issuing source, or machine-readable evidence such as passports or driver's licenses should be automatically validated by equipment used by the agency.
+
+| **Feature** | **Description** |
 | --- | --- |
-| Holographic Security Threads | Highly complex production processes make documents tough to counterfeit. |
-| Secure Ink | Durable and reliable bonding provides resistance against tampering and forgery. |
+| Holographic Security Threads | Incorporate diffractive surface elements with variable colors and patterns. They can also be equipped with machine-readable properties such as magnetic and electrical conductivity.  |
+| Iridescent Inks and Custom Foil Stamping | Provide custom designs and prints that are dificult to duplicate. |
 | Dynamic Fluorescent Feature | Dynamic response generated in UV light at varying distances from the source is hard to duplicate by attackers. |
-| Ghost Image | Image duplicating applicant photo or other feature generated with UV ink can only be seen under UV light. |
+| Ghosting | Design that produces a faint image of the card layout on top of the original layout, and used to promote visual security. |
 | Integrated Circuit with PKI Protection | Asymmetric cryptography protects data content. |
-| Digital Watermark | Documents signed by digital watermarking (DWM) (such as driver’s license images) can also be used by agencies as a piece of strong evidence in identity proofing. Watermarks are embedded in images used in secure identity verification and use applications to verify the rightful owner of an evidence document. Some applications, for instance, use the applicant’s fingerprint information to watermark the image. |
-| Barcodes | Barcode embedded on the document can be used to carry data and validate strong evidence by agencies that wish to validate evidence. |
-| Checksums | As a cryptographic application, the checksum is calculated by applying cryptographic algorithms to data in order to generate a hash, which is then used to validate the data. The generated hash is the checksum used for validation and the principle is that unauthorized parties would not be able to change the data without affecting the hash as they would not have visibility into the cryptographic algorithm or algorithms that were originally used by the provider to generate the hash. Checksums therefore provide a method to validate electronic evidence as well, whereby agencies can generate cryptographic checks to associate with documents used as evidence, which are then subject to a check for validation. This method can then be used to validate strong evidence. |
+| Digital Watermark | Documents signed by digital watermarking (DWM) (such as driver’s license images) can also be used by CSPs as a piece of strong evidence in identity proofing. Watermarks are embedded in images used in secure identity verification and use applications to verify the rightful owner of an evidence document. |
+| Barcodes | Optical, machine readable, representation of data that is embedded on the document can be used to carry data and validate strong evidence by CSPs that wish to validate evidence. |
+| Checksums | Checksums provide a method to validate electronic evidence, whereby CSP’s can generate cryptographic checks to associate with documents used as evidence, which are then subject to a check for validation. |
+| Radio-frequency identification (RFID) | Transmits data to the surrounding vicinity upon is stimulated by a suitable radio frequency source. |
+| Embedded holograms  | Unique optical properties that are used to diffract light and create virtual effects that render photocopying or scanning useless.  |
+| UV and Infrared printing | A UV or infrared printed design that can only be viewed with special equipment.  |
+| Microtext |  Very small field of static or variable data that can be confirmed when viewed under a magnifier |
+| laser engraving | Burns data such as microtext, tactile data, perforated images, and variable images that change with different viewing angles. |
+| Fluorescent ribbon | Print fluorescent grayscale text of images on ID cards that can only be seen by UV light.  |
+| Magnetic stripes | Store data using magnetism and the modification of small iron particles that can be read by swiping past a magnetic reading head.  |
 
 **Table 3:** Physical and Digital Security Features
 
