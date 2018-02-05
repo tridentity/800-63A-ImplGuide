@@ -1,4 +1,4 @@
-# Trusted Referee
+# Appendix B: Trusted Referee
 
 In instances where the individual enrolling cannot meet the identity evidence requirements specified in Section 4.5.1., the agency can use a trusted referee to assist in identity proofing the enrollee. See Section 5.3.4. for more details. These referees can be notaries, legal guardians, medical professionals, conservators, persons with power of attorney, or other trained, certified or approved individuals that can that can vouch for or act on behalf of the applicant. It follows that referees also need to have proof of identity in order to confirm their status. The applicable laws, regulations or agency policy that govern the use of trusted referees for identity proofing also determine the limits of liability for such referees in the event of mischief by the applicant. 
 
