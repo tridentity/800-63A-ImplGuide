@@ -2,7 +2,7 @@
 
 Once the identity assurance level for a system or subsystem has been selected, the agency should determine the attributes and identity evidence required to satisfy its use case(s).
 
-The first step to proof an individual is to collect the core attributes necessary to establish a unique representation of the individual’s identity for use during the proofing process. The collection of these core attributes is intended to help resolve applicants to a single unique entity and to enable the appropriate level of verification and validation to support system risk and meet IAL requirements. Some commonly used core attributes are name, date of birth, address, phone number and e-mail address.
+The first step to proof an individual is to collect the core attributes necessary to establish a unique representation of the individual’s identity for use during the proofing process. The collection of these core attributes is intended to help resolve applicants to a single unique entity and to enable the appropriate level of verification and validation to support system risk and meet IAL requirements. Some commonly used core attributes are name, date of birth, address, phone number and e-mail address. The utility of core attributes in identity resolution will be discussed in the following [section](https://github.com/usnistgov/800-63A-ImplGuide/blob/master/4_Resolution.md).
 
 Identity evidence comprises physical or digital artifacts used by a subscriber to prove the real-world existence of a claimed identity. Evidence required by the agency and provided by the applicant must contain features that support both validation (confirmed to be genuine and accurate) and verification (demonstrated to associated with the subscriber) at the appropriate strengths for a defined use case.  
 
@@ -41,7 +41,7 @@ Submitting evidence and attributes in multiple stages can become burdensome for 
 The initial information may be captured via an online form directly from the applicant that is being proofed.
 In other cases, the agency may allow the applicant to provide some documents via remote means, such as submitting an image of an identification document like a passport or a driver’s license. This workflow requires the utilization of some form of digital capture, such as a camera or a document scanner. Systems with optical character recognition capabilities that allow fields in a document to be pre-populated upon scanning should also allow the applicant to review and validate the information as correct. Some agencies may choose to enforce requirements more directly by providing mobile applications for collection –e.g. camera capture functions that provide an overlay and illumination check feature to ensure applicants provide pictures with correct size and brightness.
 
-Some of the methods with which an agency can digitally capture evidence are listed in Table 3.
+Some of the methods with which an agency can digitally capture or validate evidence are listed in Table 3.
 
 | **Method** | **Device** | **Information** |
 | --- | --- | --- |
@@ -50,7 +50,7 @@ Some of the methods with which an agency can digitally capture evidence are list
 | Barcode | Scanner | Commercial off-the-shelf scanners can capture and extract information from standardized barcodes embedded on identity evidence. |
 | UV Light | Lamp/Reader | Certain document features can only be detected under UV light and therefore require specialized equipment for the agencies to validate or otherwise capture information. |
 
-**Table 3** Digital Collection Methods
+**Table 3** Digital Collection and Validation Methods
 
 ###	In-Person
 
