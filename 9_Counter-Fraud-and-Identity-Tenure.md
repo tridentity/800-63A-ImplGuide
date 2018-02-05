@@ -1,4 +1,4 @@
-# Counter Fraud and Identity Tenure
+# Appendix A: Counter Fraud and Identity Tenure
 
 As stated previously, the sole objective of identity proofing is to ensure the applicant is who they claim to be to a stated level of certitude.  The fact that the level of certitude has once been established is no guarantee that at time of presenting their credential the original applicant is still the sole owner of the credential.  Compromise or impersonation of the true owner by another, constituting either identity fraud or transaction fraud is commonplace.  The level of capability of an agency to perform such checks to counter such fraud is outlined in the following table and supports the certitude of the identity assurance level.   
 The agency should, through its own internal data sets or via reliable and independent sources, employ the following counter fraud checking capabilities:
