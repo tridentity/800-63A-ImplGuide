@@ -1,0 +1,5 @@
+# Identity Proofing of Foreign Individuals
+
+Identity proofing is required for any applicant requesting the services of an agency and to the extent that such services are available to foreign nationals, their identity proofing is necessary, as is the capability within an agency to recognize and proof identities of individuals possessing foreign identification documents. Cross-border initiatives, legal frameworks and multinational industrial efforts exist to meet this challenge and offer a seamless utilization of identity management services that transcends jurisdictions and borders.
+
+The requirements for evidence do not apply only to U.S.-based documents but cover identity documentation from any nation. Agencies can therefore accept identity evidence from other nations should a risk assessment of their assertion levels find that they meet proofing requirements. Agencies can also leveraege an appropriate federation and trust framework authority to proof foreign individuals at appropriate levels.
