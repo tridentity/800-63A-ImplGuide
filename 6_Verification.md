@@ -2,9 +2,7 @@
 
 The goal of identity verification is to confirm and establish a linkage between the claimed identity and the physical, live existence of the person actually presenting the evidence. This can be done by a physical or biometric comparison, or a KBV challenge, or by authenticating the applicant with methods and credentials that are appropriate for the level of assurance.
 
-Table 4-3 in SP800-63A details the verification methods necessary to achieve successful verification at the appropriate levels of strength. The strength of an evidence verification system can be assessed using this information; to achieve proofing at IAL 2, at a minimum, agencies must verify the applicants by a process that is able to achieve a strength of STRONG.
-
-In the following sections we will discuss the identity verification methods listed in Table 4-3 in SP800-63A.
+Table 4-3 in SP800-63A details the verification methods necessary to achieve successful verification at the appropriate levels of strength. In the following sections we will discuss the identity verification methods listed in that table.
 
 ## KBV
 
