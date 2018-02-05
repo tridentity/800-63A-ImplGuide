@@ -1,6 +1,6 @@
 # Resolution
 
-The goal of resolution is to map the information provided by the applicant into a unique, claimed identity. This process may be started automatically upon submission of biographic information during the enrollment process. Unlike validation and verification, the resolution process is focused on ensuring that the information being provided is representative of a real unique individual that can be distinguished from other records to enable the verification of associated attributes and identity evidence. It, in and of itself, is not intended to provide confidence that the individual presenting the information is who they claim to be.
+The goal of resolution is to map the information provided by the applicant into a unique, claimed identity. This process may be started automatically upon submission of biographic information during the enrollment process. The resolution process is focused on ensuring that the information being provided is representative of a real unique individual that can be distinguished from other records to enable the verification of associated attributes and identity evidence. It, in and of itself, is not intended to provide confidence that the individual presenting the information is who they claim to be.
 
 Agencies should take into account factors specific to the populations that they serve, or intend to serve, to help design enrollment and proofing processes to allow for the collection of necessary information to uniquely distinguish between individual users—without collecting unnecessary sensitive information. As SP800-63A emphasizes, effective identity resolution uses the smallest set of attributes necessary to resolve to a unique individual. Where possible non-sensitive information should be added to collection if additional attributes are needed to help differentiate users. For example, a population of former military personnel will provide different details and require different resolution data sources than foreign nationals.
 
@@ -21,7 +21,7 @@ Sets and combinations of core and supplemental attributes provide varying levels
 
 **Table 7:** Estimated Resolution Effectiveness for Various Attribute Combination Scenarios
 
-To reduce inaccuracies and increase efficiency of the resolution process, Agencies have historically employed knowledge based verification (KBV) or matching algorithms. We will examine the two in the following subsections.
+To reduce inaccuracies and increase efficiency of the resolution process, Agencies have historically employed knowledge based verification (KBV) or matching algorithms.
 
 ## Matching Algorithms
 
@@ -33,7 +33,7 @@ The uniqueness of the individual and the information presented impact the comple
 | --- |
 | A fuzzy matching algorithm may help the resolution of an identity record belonging to James A. Aldrin and data belonging to Jim Alvin Aldren to the same individual with a certain degree of confidence by taking into account that “Jim” is a variant of “James”, “A” is the first initial of “Alvin” and “Aldrin” could possibly have been misspelled as “Aldren,” if other data such as address, date of birth and place of birth all match. |
 
-Another issue which requires close attention is the varying frequency of names across different languages and cultures. Compounding this complexity is the phonetic transformation of names from alphabets like Hangul (Korea), Hiragana (Japan), the Cyrillic and Arabic alphabets into English, which can frequently result in individuals with different names in their countries of origin having their names “translated” into identical names in English. 
+Another issue which requires close attention is the varying frequency of names across different languages and cultures. Compounding this complexity is the phonetic transformation of names from alphabets like Hangul (Korea), Hiragana (Japan), the Cyrillic and Arabic alphabets into English, which can frequently result in individuals with different names in their countries of origin having these different names transliterated into identical names in English. 
 
 | ***Example: Common Last Names*** |
 | --- |
@@ -44,7 +44,7 @@ Agencies should take care to check for uniqueness during registration. Fuzzy mat
 ![Figure 4: Fuzzy Matching of Attributes Using Name, Date of Birth and Current Address](media/figure-4-fuzzy-matching.png)
 **Figure 4:** Fuzzy Matching of Attributes Using Name, Date of Birth and Current Address
 
-The U.S. Department of Veterans’ Affairs and many large health care organizations use attribute matching systems to perform patient identity matching. These systems vary in costs and complexity and fuzzy matching algorithms consider demographic attributes such as name, date of birth, address and phone number. When comparisons indicate a high statistical likelihood that the records are related, the algorithm declares a match between the two records based on thresholds established by the assurance requirements of the use case. In deterministic cases (such as the algorithm used by the Veterans Health Administration) exact matching of identity and demographic data is performed. 
+The U.S. Department of Veterans’ Affairs and many large health care organizations use attribute matching systems to perform patient identity matching. These systems vary in costs and complexity and fuzzy matching algorithms consider demographic attributes such as name, date of birth, address and phone number. When comparisons indicate a high statistical likelihood that the records are related, the algorithm declares a match between the two records based on thresholds established by the assurance requirements of the use case. In deterministic cases exact matching of identity and demographic data is performed. 
 
 ## Knowledge Based Verification for Resolution
-If an agency chooses to start the identity proofing process with higher confidence, or in the event an identity cannot be resolved using automated matching algorithms or manual inspection by CSP staff, the CSP may request the applicant participate in a KBV process. KBV is more commonly used in the verification step and a more detailed discussion of this process is provided in that section **[add link]**.
+If an agency chooses to start the identity proofing process with higher confidence, or in the event an identity cannot be resolved using automated matching algorithms or manual inspection by the agency staff, the agency may request the applicant participate in a KBV process. KBV is more commonly used in the verification step and a more detailed discussion of this process is provided in that section **[add link]**.
