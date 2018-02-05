@@ -1,6 +1,6 @@
 # IAL2 Example Walkthrough
 
-Assuming that IAL2 is selected for a particular use, let us walk through the identity proofing steps for an application case where a provider offers services through a mobile device.
+Assuming that IAL2 is selected for a particular use, let us walk through the identity proofing steps for an application case wherein a provider offers services through a mobile device.
 
 ## Evidence Selection
 
