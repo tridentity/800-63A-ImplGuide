@@ -4,7 +4,7 @@ Assuming that IAL2 is selected for a particular use, let us walk through the ide
 
 ## Evidence Selection
 
-The CSP e-mails applicants to inform them that enrollment can be done remotely using its secure mobile application through which the service or solution is delivered.
+The agency e-mails applicants to inform them that enrollment can be done remotely using its secure mobile application through which the service or solution is delivered.
 
 The landing page of the application instructs the applicant to login or sign-up using email. A new applicant is instructed to provide either:
 
@@ -15,9 +15,9 @@ The landing page of the application instructs the applicant to login or sign-up 
 
 **Figure 4:** Mobile Application's Document Instructions Page
 
-The applicant is told explicitly that the passport and driver’s license images will be used for identity verification only, and once verified, document images will be deleted and not retained by the CSP.
+The applicant is told explicitly that the passport and driver’s license images will be used for identity verification only, and once verified, document images will be deleted and not retained by the agency.
 
-The CSP then requests, as shown in Figure 4, a picture of the applicant’s passport to be uploaded using the mobile application, or a picture of their driver’s license in addition to credit card and bank account information. The applicant also providers full name, address and date of birth for registration. These tasks, as shown on the mobile application, are illustrated in Figure 5.
+The agency then requests, as shown in Figure 4, a picture of the applicant’s passport to be uploaded using the mobile application, or a picture of their driver’s license in addition to credit card and bank account information. The applicant also providers full name, address and date of birth for registration. These tasks, as shown on the mobile application, are illustrated in Figure 5.
 
 ![Figure 5: Document Capture](media/workflow-3-enrollment.png)
 
@@ -27,13 +27,13 @@ Once document capture is finished, the applicant is advised to await a confirmat
 
 ## Resolution
 
-The CSP proceeds to resolve all core attributes collected from the applicant into a single identity. In the case of paper/in-person applications some of the resolution steps may require human intervention.
+The agency proceeds to resolve all core attributes collected from the applicant into a single identity. In the case of paper/in-person applications some of the resolution steps may require human intervention.
 
-In our IAL2 example, the CSP can leverage identity document image verification software to obtain the full name, address and DOB for an applicant from the image of their driver’s license or passport that they received via the app.
+In our IAL2 example, the agency can leverage identity document image verification software to obtain the full name, address and DOB for an applicant from the image of their driver’s license or passport that they received via the app.
 
-The 24-hour period given to the applicant enables the CSP to handle any exceptions (this could also accommodate the use of human operators where intervention is necessary but we assume for the sake of this example that automated verification software is not available). Once attribute information is produced from the document image, the CSP has two or more sets of attributes for the applicant –one from the application entries provided by the applicant, and one or more from the document(s).
+The 24-hour period given to the applicant enables the agency to handle any exceptions (this could also accommodate the use of human operators where intervention is necessary but we assume for the sake of this example that automated verification software is not available). Once attribute information is produced from the document image, the agency has two or more sets of attributes for the applicant –one from the application entries provided by the applicant, and one or more from the document(s).
 
-The CSP can then run a matching algorithm, as depicted in the following figure, to obtain a similarity score that reflects the extent to which the different sets of identity attributes resolve, and, comparing this against a threshold, decide success or failure.
+The agency can then run a matching algorithm, as depicted in the following figure, to obtain a similarity score that reflects the extent to which the different sets of identity attributes resolve, and, comparing this against a threshold, decide success or failure.
 
 ![Figure 6: Resolution](https://github.com/usnistgov/800-63A-ImplGuide/blob/master/media/workflow-4-resolution.png)
 
@@ -41,12 +41,16 @@ The CSP can then run a matching algorithm, as depicted in the following figure, 
 
 ## Validation
 
-To validate the identity the CSP must examine the documents collected from the applicant. Automated software (or an operator) will first check the security features on the document that has been uploaded by the applicant using the mobile application – holograms, secure inks and other devices – to check that it is genuine. Second, the CSP will also validate the personalized information on the card – name, date of birth, address, driver’s license or passport number, account number – and make sure that the information in the documents is valid.
+To validate the identity the agency must examine the documents collected from the applicant. Automated software (or an operator) will first check the security features on the document that has been uploaded by the applicant using the mobile application – holograms, secure inks and other devices – to check that it is genuine. Second, the agency will also validate the personalized information on the card – name, date of birth, address, driver’s license or passport number, account number – and make sure that the information in the documents is valid. An example is illustrated in Figure 7, where an automated system that uses the picture of the applicant's passport to extract information and physical security features to validate the evidence in terms of both the features and the information.
+
+![Figure 7: Validation](https://github.com/usnistgov/800-63A-ImplGuide/blob/master/media/workflow-5-validation.png)
+
+**Figure 7:** Validation
 
 ## Verification
 
-The CSP completes the identity proofing process by verification. In this step, the identity of the actual individual applying is verified for a match against the individual whose identity information is built using resolution and validation of the documents provided. A general outline for the verification process has been shown in the following figure. In our example, the CSP uses the mobile application to perform face verification of the individual which compares a face image submitted by the applicant in the final stage of identity proofing against face images in the background records of the applicant’s driver’s license or passport. For enhanced security, the CSP can in addition use the bank account information provided by the applicant to submit two micro deposits of less than $1 each, and then ask the applicant to complete the final verification step by providing the micro deposit amounts in cents, appended into a 4-digit sequence. Upon successful verification the CSP will issue credentials to the applicant, who can subsequently start using the service.
+The agency completes the identity proofing process by verification. In this step, the identity of the actual individual applying is verified for a match against the individual whose identity information is built using resolution and validation of the documents provided. A general outline for the verification process has been shown in the following figure. In our example, the agency uses the mobile application to perform face verification of the individual which compares a face image submitted by the applicant in the final stage of identity proofing against face images in the background records of the applicant’s driver’s license or passport. For enhanced security, the agency can in addition use the bank account information provided by the applicant to submit two micro deposits of less than $1 each, and then ask the applicant to complete the final verification step by providing the micro deposit amounts in cents, appended into a 4-digit sequence. Upon successful verification the agency will issue credentials to the applicant, who can subsequently start using the service.
 
-![Figure 7: Verification](https://github.com/usnistgov/800-63A-ImplGuide/blob/master/media/workflow-5-verification.png)
+![Figure 8: Verification](https://github.com/usnistgov/800-63A-ImplGuide/blob/master/media/workflow-5-verification.png)
 
-**Figure 7:** Verification
+**Figure 8:** Verification
