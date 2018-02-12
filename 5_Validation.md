@@ -45,6 +45,8 @@ When validating - agencies must do so consistent with the level of strength appr
 
 **Figure 1:** Evidence Validation Process
 
+Answering the questions starting from the top left of the diagram, the validation process can yield the level of strength for any given type of evidence that can be used by the agency. The following table provides examples for each level of evidence strength.
+
 | **Strength** | **Example** | **Justification** |  **Notes** |
 | --- | --- | --- | --- |
 | US Passport - unexpired | Superior | - Issuing source confirmed claimed identity by following written procedures<br/> - Issuing source visually identified applicant<br/> - Issuing process ensured it was delivered into possession of the person<br/> - Contains at least one reference number<br/> - Full name<br/> - Contains photograph<br/> - Contains<br/> - biometric template (?)<br/> - Includes digital information<br/> - Includes physical security features<br/> - Unexpired |  |
@@ -69,3 +71,7 @@ When validating - agencies must do so consistent with the level of strength appr
 | Voter's registration card | Weak or Unacceptable | - Issuing source did not perform identity proofing<br/> - Issuing process means it can be reasonably assumed it was delivered to the person<br/> - Contains at least one reference number | ** Unacceptable if does not contain a unique reference number |
 | School record or report | Weak or Unacceptable | - Includes name and student ID number, but no identity proofing required and generally no photograph/biometric provided |  |
 | Alien Registration Card (Form I-551) |  | -  | This is just another name for a permanent resident card/green card |
+
+**Table 4: Evidence Strengths**
+
+For each example at strength levels Superior through Unacceptable, justifications for the strength level have been provided.
