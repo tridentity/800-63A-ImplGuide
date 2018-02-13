@@ -4,6 +4,30 @@ The goal of identity verification is to confirm and establish a linkage between 
 
 Table 4-3 in SP800-63A details the verification methods necessary to achieve successful verification at the appropriate levels of strength. In the following sections we will discuss the identity verification methods listed in that table.
 
+## Biometric Verification
+
+Biometrics can play a key role in identity proofing and verification of individuals. This utility can come in multiple stages of the identity proofing process.
+
+In enrollment, agencies can capture biometrics in the form of fingerprints, face, iris images, etc. They can compare requirements with their options to identify which single or multi-modal biometric solution can best respond to their needs and implement the system accordingly.
+
+It is important for agencies to note that biometrics collected for enrollment in one instance without any biometric verification for identity proofing should not later be used as a proofing source.
+
+It is also important to note that local automated verification of an applicant's photo against a picture in evidence supplied remotely (such as the image of a driver's license containing an applicant's picture) is in essense no more secure than a physical comparison of the picture in an applicant's evidence document with the applicant's own image. Because this verification does not utilize the information contained in a reliable background repository, agencies should not treat it as of the same level of strength as biometric verification against a background collection, examples of which will be discussed below.
+
+In many applications, the biometric samples collected upon enrollment automatically trigger open-set identification. Open-set identification is typically defined as the task to determine if someone is in a database and to find the record of the individual in the database. This “defensive” first-line measure upon enrollment performs de-duplication. In other words, the agency's database of identities is surveyed automatically to see if the applicant has an existing identity record. If the deduplication search returns a positive match, agencies should match the attributes in the existing identity and the applicant-provided information to determine and adjudicate any mismatches.
+
+Agencies can also leverage biometrics in the resolution and verification steps as another factor to contribute to the degree of confidence along with other methods such as the fuzzy matching of attributes or knowledge-based verification. Naturally, an agency can only do this if biometric data exists for the applicant in the databases wherein the reference attributes for resolution and verification reside. As an example, if guidelines and regulations governing the use and sharing of biometric data allow it, the biometric samples collected as part of the enrollment of one agency can be submitted for a 1:1 verification by another agency wherein the applicant also has an identity record. In this process the biometrics become another factor, enabling the enrolling agency to resolve and verify the identity with confidence.
+
+Requirements and differences between collection methods such as in-person, virtual in-person or remote also concern the collection of biometric samples for applicants. Presentation attacks are a matter of concern for unproctored collection use cases. Ongoing work, such as [*SOFA-B: Strength of Authentication for Biometrics*](https://pages.nist.gov/SOFA/SOFA.html), provides guidelines for the strength of biometric authentication systems as a balanced function of presentation attack detection abilities, biometric match accuracy and effort (to attack system).
+
+Agencies should also note that different biometric modalities provide varying levels of accuracy, presentation attack vulnerability and ease of collection. Existing literature offers deep insight into the trade-off between accuracy, convenience and other factors of biometric authentication. NIST and other authorities have also conducted and orchestrated standardized tests in order to evaluate performances of biometric algorithms developed by participating vendors. agencies should use these resources as guidelines when considering the use of biometrics in their implementations.
+
+For an IAL3 system, detection mechanisms should be in place to ensure security of the system against presentation attacks if collection is done remotely. Requirements for virtual in-person collection mitigate the risk of presentation attacks for an IAL3 system.  Requirements in 800-63A should be considered for IAL2 systems.
+
+Limiting the number of consecutive unsuccessful verification attempts also helps to protect a system against presentation attacks. For a system without presentation attack detection, the limit can be set to 3 while for systems that employ presentation attack detection, a maximum of 10 consecutive unsuccessful attempts may be allowed.
+
+## Physical Verification
+
 ## KBV
 
 This technique presents the applicant with a series of questions to help distinguish the applicant from other known identities. The information in KBV systems can be  obtained from publicly available databases to avoid the leakage of sensitive, non-public information.
@@ -53,28 +77,6 @@ If the applicant suspends and resumes the process they should either be presente
 If the agency allows the applicant to suspend and resume the process the agency should not reveal whether the applicant correctly answered any of the previous questions.
 The agency should only allow the applicant to suspend and resume the process twice, totaling a maximum of three attempts. If the CSP presents the same set of questions upon resumption, further questions should be introduced to prevent attackers from using process to extract information and answer previously given questions.
 If the applicant fails to return or fails to complete KBV upon return, KBV should be deemed failed.
-
-## Biometric Capture
-
-Biometrics can play a key role in identity proofing and verification of individuals. This utility can come in multiple stages of the identity proofing process.
-
-In enrollment, agencies can capture biometrics in the form of fingerprints, face, iris images, etc. They can compare requirements with their options to identify which single or multi-modal biometric solution can best respond to their needs and implement the system accordingly.
-
-It is important for agencies to note that biometrics collected for enrollment in one instance without any biometric verification for identity proofing should not later be used as a proofing source.
-
-It is also important to note that local automated verification of an applicant's photo against a picture in evidence supplied remotely (such as the image of a driver's license containing an applicant's picture) is in essense no more secure than a physical comparison of the picture in an applicant's evidence document with the applicant's own image. Because this verification does not utilize the information contained in a reliable background repository, agencies should not treat it as of the same level of strength as biometric verification against a background collection, examples of which will be discussed below.
-
-In many applications, the biometric samples collected upon enrollment automatically trigger open-set identification. Open-set identification is typically defined as the task to determine if someone is in a database and to find the record of the individual in the database. This “defensive” first-line measure upon enrollment performs de-duplication. In other words, the agency's database of identities is surveyed automatically to see if the applicant has an existing identity record. If the deduplication search returns a positive match, agencies should match the attributes in the existing identity and the applicant-provided information to determine and adjudicate any mismatches.
-
-Agencies can also leverage biometrics in the resolution and verification steps as another factor to contribute to the degree of confidence along with other methods such as the fuzzy matching of attributes or knowledge-based verification. Naturally, an agency can only do this if biometric data exists for the applicant in the databases wherein the reference attributes for resolution and verification reside. As an example, if guidelines and regulations governing the use and sharing of biometric data allow it, the biometric samples collected as part of the enrollment of one agency can be submitted for a 1:1 verification by another agency wherein the applicant also has an identity record. In this process the biometrics become another factor, enabling the enrolling agency to resolve and verify the identity with confidence.
-
-Requirements and differences between collection methods such as in-person, virtual in-person or remote also concern the collection of biometric samples for applicants. Presentation attacks are a matter of concern for unproctored collection use cases. Ongoing work, such as [*SOFA-B: Strength of Authentication for Biometrics*](https://pages.nist.gov/SOFA/SOFA.html), provides guidelines for the strength of biometric authentication systems as a balanced function of presentation attack detection abilities, biometric match accuracy and effort (to attack system).
-
-Agencies should also note that different biometric modalities provide varying levels of accuracy, presentation attack vulnerability and ease of collection. Existing literature offers deep insight into the trade-off between accuracy, convenience and other factors of biometric authentication. NIST and other authorities have also conducted and orchestrated standardized tests in order to evaluate performances of biometric algorithms developed by participating vendors. agencies should use these resources as guidelines when considering the use of biometrics in their implementations.
-
-For an IAL3 system, detection mechanisms should be in place to ensure security of the system against presentation attacks if collection is done remotely. Requirements for virtual in-person collection mitigate the risk of presentation attacks for an IAL3 system.  Requirements in 800-63A should be considered for IAL2 systems.
-
-Limiting the number of consecutive unsuccessful verification attempts also helps to protect a system against presentation attacks. For a system without presentation attack detection, the limit can be set to 3 while for systems that employ presentation attack detection, a maximum of 10 consecutive unsuccessful attempts may be allowed.
 
 ## Address Confirmation
 
