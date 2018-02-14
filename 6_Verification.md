@@ -7,8 +7,9 @@ The following table presents the verification methods that should be considered 
 | **Strength** | **Method** | **Description** |
 | --- | --- | --- |
 | Superior | Biometric Verification | Comparison against strongest piece of evidence, remote or in-person |
-| Strong | Biometric or Physical Verification | Physical comparison to photograph, or biometric comparison, against strongest piece of evidence, remote or in-person |
-| Fair | Biometric, Physical or Knowledge-Based Verification | Biometric comparison against evidence or physical comparison against strongest piece of evidence, remote or in-person |
+| Strong | In-Person Physical Verification | Physical comparison to photograph against strongest piece of evidence |
+| Strong | Remote Physical Verification | Physical comparison to photograph against strongest piece of evidence |
+| Fair | Knowledge-Based Verification | Comparison of challenge response provided by applicant against known information, remote or in-person |
 
 **Table 4: Verification Methods and Strengths**
 
@@ -38,15 +39,13 @@ Limiting the number of consecutive unsuccessful verification attempts also helps
 
 ## Physical Verification
 
-Agencies can perform physical verification of an applicant by comparing the applicant to a photograph or against the strongest piece of evidence provided to support the claimed identity. As noted in 63A, guidance in [NIST Special Publication 800-63B, Section 5.2.3](https://pages.nist.gov/800-63-3/sp800-63b.html#biometric_use) should be followed for the requirements for physical verification. As mentioned earlier, biometric verification that is done locally (i.e. biometrics captured on device matched against biometrics stored on device) or biometric verification done by matching biometrics provided by applicant against biometrics present in evidence provided by the applicant should be considered of no greater strength than that of physical verification of applicant against evidence.
+Agencies can perform physical verification of an applicant by comparing the applicant to a photograph or against the strongest piece of evidence provided to support the claimed identity. As noted in 63A, guidance in [NIST Special Publication 800-63B, Section 5.2.3](https://pages.nist.gov/800-63-3/sp800-63b.html#biometric_use) should be followed for the requirements for physical verification. As mentioned earlier, biometric verification that is done locally (i.e. biometrics captured on device matched against biometrics stored on device) or biometric verification done by matching biometrics provided by applicant against biometrics present in evidence provided by the applicant should be considered of no greater strength than that of physical verification of applicant against evidence. Physical verification can be done in person or via a shared video session with the applicant, or by means of a remote submission of evidence by the applicant.
 
 ## KBV
 
-This technique presents the applicant with a series of questions to help distinguish the applicant from other known identities. The information in KBV systems can be  obtained from publicly available databases to avoid the leakage of sensitive, non-public information.
+This technique presents the applicant with a series of questions to help distinguish the applicant from other known identities. While it is preferred that information in KBV systems are obtained from publicly available databases to counter fraud attempts due to leakage of sensitive, non-public information from compromised data sources, this also means that KBV cannot properly secure the identity proofing process against attackers that have compiled all publicly available information about an applicant. That is why KBV is generally designated at a level of fair in 63A, as specified in [Section 5.3.2](https://pages.nist.gov/800-63-3/sp800-63a.html#sec5). 
 
 KBV systems can also be used in the resolution stage of the identity proofing process. 
-
-Requirements for knowledge based verification have been specified in [Section 5.3.2 in SP800-63A](https://pages.nist.gov/800-63-3/sp800-63a.html#sec5). 
 
 The quality and availability of the data used in the KBV process results in varying degrees of confidence and agencies should consider the quality when when making decisions on the utilization and outcome of KBV. The UK government’s [Identity Proofing and Verification (IPV) Operations Manual](https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/383109/IPV_Operations_Manual_v2.3.1_Redacted.pdf) and [Good Practice Guide (GPG) 45](https://www.ncsc.gov.uk/content/files/guidance_files/GPG%2045%20%20-%20validating%20and%20Verifying%20the%20identity%20of%20an%20individual%20-%20issue%202.4%20-%20NCSC%20Web.pdf) have been used as a reference to build the baseline considerations presented in this document. Accordingly, the agency should follow a set of fundamental principles in KBV design:
 - **Clarity:** Process must be clear so that applicant can understand and correctly respond.
@@ -92,6 +91,6 @@ If the applicant fails to return or fails to complete KBV upon return, KBV shoul
 
 ## Address Confirmation
 
-Agencies may require applicants to confirm their address, as outlined in SP800-63A. This is done in the form of an enrollment code sent by the agency, intended for the applicant to receive at their address of record. Successful provision of the correct code by the applicant to the agency serves to confirm the address provided by the applicant: The address binds the identity to the applicant’s record.
+Agencies may also require applicants to confirm their address, as outlined in SP800-63A. This can be done in the form of an enrollment code sent by the agency, intended for the applicant to receive at their address of record. Successful provision of the correct code by the applicant to the agency serves to confirm the address provided by the applicant: The address binds the identity to the applicant’s record.
 
 An example is a scannable image or barcode that is unique to the enrollment, mailed to the applicant’s address of record. Successful scanning and verification of this image or barcode by a mobile application provided in the agency’s workflow can be used for address confirmation.
