@@ -2,7 +2,17 @@
 
 The goal of identity verification is to confirm and establish a linkage between the claimed identity and the physical, live existence of the person actually presenting the evidence. This can be done by a physical or biometric comparison, or a KBV challenge, or by authenticating the applicant with methods and credentials that are appropriate for the level of assurance.
 
-Table 4-3 in SP800-63A details the verification methods necessary to achieve successful verification at the appropriate levels of strength. In the following sections we will discuss the identity verification methods listed in that table.
+The following table presents the verification methods that should be considered to achieve a given level of strength of fair or above. The requirements for these levels have been outlined in Table 5-3 in SP800-63A.
+
+| **Strength** | **Method** | **Description** |
+| --- | --- | --- |
+| Superior | Biometric Verification | Comparison against strongest piece of evidence, remote or in-person |
+| Strong | Biometric or Physical Verification | Physical comparison to photograph or biometric comparison against strongest piece of evidence, remote or in-person |
+| Fair | Biometric, Physical or Knowledge-Based Verification | Biometric comparison against evidence or physical comparison against strongest piece of evidence, remote or in-person |
+
+**Table 4: Verification Methods and Strengths**
+
+In the following subsections we will offer implementation considerations for these verification methods.
 
 ## Biometric Verification
 
@@ -10,9 +20,7 @@ Biometrics can play a key role in identity proofing and verification of individu
 
 In enrollment, agencies can capture biometrics in the form of fingerprints, face, iris images, etc. They can compare requirements with their options to identify which single or multi-modal biometric solution can best respond to their needs and implement the system accordingly.
 
-It is important for agencies to note that biometrics collected for enrollment in one instance without any biometric verification for identity proofing should not later be used as a proofing source.
-
-It is also important to note that local automated verification of an applicant's photo against a picture in evidence supplied remotely (such as the image of a driver's license containing an applicant's picture) is in essense no more secure than a physical comparison of the picture in an applicant's evidence document with the applicant's own image. Because this verification does not utilize the information contained in a reliable background repository, agencies should not treat it as of the same level of strength as biometric verification against a background collection, examples of which will be discussed below.
+It is important for agencies to note that biometrics collected for enrollment in one instance without any biometric verification for identity proofing should not later be used as a proofing source. This would constitute a level of strength no better than physical verification. It also creates a vulnerability for cases wherein the biometrics of an attacker can be enrolled and subsequently used for verification using false identity information obtained from a legitimate user. It is also important to note that local automated verification of an applicant's photo against a picture in evidence supplied remotely (such as the image of a driver's license containing an applicant's picture) is similarly no more secure than a physical comparison of the picture in an applicant's evidence document with the applicant's own image. Because this verification does not utilize the information contained in a reliable background repository, agencies should not treat it as of the same level of strength as biometric verification against a background collection, examples of which will be discussed below.
 
 In many applications, the biometric samples collected upon enrollment automatically trigger open-set identification. Open-set identification is typically defined as the task to determine if someone is in a database and to find the record of the individual in the database. This “defensive” first-line measure upon enrollment performs de-duplication. In other words, the agency's database of identities is surveyed automatically to see if the applicant has an existing identity record. If the deduplication search returns a positive match, agencies should match the attributes in the existing identity and the applicant-provided information to determine and adjudicate any mismatches.
 
