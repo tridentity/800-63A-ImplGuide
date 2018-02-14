@@ -38,7 +38,7 @@ Limiting the number of consecutive unsuccessful verification attempts also helps
 
 ## Physical Verification
 
-Agencies can perform physical verification of an applicant by comparing the applicant to a photograph or against the strongest piece of evidence provided to support the claimed identity.
+Agencies can perform physical verification of an applicant by comparing the applicant to a photograph or against the strongest piece of evidence provided to support the claimed identity. As noted in 63A, guidance in [NIST Special Publication 800-63B, Section 5.2.3](https://pages.nist.gov/800-63-3/sp800-63b.html#biometric_use) should be followed for the requirements for physical verification. As mentioned earlier, biometric verification that is done locally (i.e. biometrics captured on device matched against biometrics stored on device) or biometric verification done by matching biometrics provided by applicant against biometrics present in evidence provided by the applicant should be considered of no greater strength than that of physical verification of applicant against evidence.
 
 ## KBV
 
@@ -46,14 +46,14 @@ This technique presents the applicant with a series of questions to help disting
 
 KBV systems can also be used in the resolution stage of the identity proofing process. 
 
-Detailed requirements for knowledge based verification have been specified in Section 5.3.2 in SP800-63A. 
+Requirements for knowledge based verification have been specified in [Section 5.3.2 in SP800-63A](https://pages.nist.gov/800-63-3/sp800-63a.html#sec5). 
 
-The quality and availability of the data used in the KBV process results in varying degrees of confidence and agencies should consider the quality when when making decisions on the utilization and outcome of KBV. The agency should follow a set of fundamental principles in KBV design (The UK government’s [Identity Proofing and Verification (IPV) Operations Manual](https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/383109/IPV_Operations_Manual_v2.3.1_Redacted.pdf) and [Good Practice Guide (GPG) 45](https://www.ncsc.gov.uk/content/files/guidance_files/GPG%2045%20%20-%20validating%20and%20Verifying%20the%20identity%20of%20an%20individual%20-%20issue%202.4%20-%20NCSC%20Web.pdf) have been used as a reference to build the baseline guidance presented in this document):
-- Clarity –-process must be clear so that applicant can understand and correctly respond
+The quality and availability of the data used in the KBV process results in varying degrees of confidence and agencies should consider the quality when when making decisions on the utilization and outcome of KBV. The UK government’s [Identity Proofing and Verification (IPV) Operations Manual](https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/383109/IPV_Operations_Manual_v2.3.1_Redacted.pdf) and [Good Practice Guide (GPG) 45](https://www.ncsc.gov.uk/content/files/guidance_files/GPG%2045%20%20-%20validating%20and%20Verifying%20the%20identity%20of%20an%20individual%20-%20issue%202.4%20-%20NCSC%20Web.pdf) have been used as a reference to build the baseline considerations presented in this document. Accordingly, the agency should follow a set of fundamental principles in KBV design:
+- **Clarity:** Process must be clear so that applicant can understand and correctly respond.
     - Relevant, sensible, proportionate
     - Carefully constructed, clear, obvious as to what is being asked of the applicant
     - Expectation that owner of claimed identity can reasonably complete process
-- Breadth –-process should cover a wide range of information
+- **Breadth:** Process should cover a wide range of information.
     - Based on a range of information and not one single source
     - Covering different evidence categories
     - Security –process must protect claimed identity from impersonation
@@ -65,7 +65,7 @@ The quality and availability of the data used in the KBV process results in vary
     - Must minimize risk of impersonation by close family member
     - Answers to multiple questions should not have been provided to applicant earlier in workflow
     - Must not reveal personal information that has not been provided by applicant
-- Sources –-process must use suitable sources
+- **Sources:** Process must use suitable sources.
     - Organization that captures or generates original data, not intermediary
     - Data originating from separate acceptance and proofing processes within a source can be considered a separate source
     - Source used for KBV must be independent from applicant
