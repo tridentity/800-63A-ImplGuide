@@ -12,8 +12,8 @@ It is ultimately up to the agency to determine which biographic information to c
 
 Table 2 provides examples of evidence from each category of strength defined in the aforementioned identity evidence quality table in 800-63A. 
 
-| **Example** | **Strength** | **Justification** |  **Notes** |
-| --- | --- | --- | --- |
+| **Example** | **Strength** | **Justification** |
+| --- | --- | --- |
 | US Passport - unexpired | Superior | - Issuing source confirmed claimed identity by following written procedures<br/> - Issuing source visually identified applicant<br/> - Issuing process ensured it was delivered into possession of the person<br/> - Contains at least one reference number<br/> - Full name<br/> - Contains photograph<br/> - Contains<br/> - biometric template (?)<br/> - Includes digital information<br/> - Includes physical security features<br/> - Unexpired |
 | US Military card | Superior | - Issuing source confirmed claimed identity by following written procedures<br/> - Issuing source visually identified applicant<br/> - Issuing process ensured it was delivered into possession of the person<br/> - Contains at least one reference number<br/> - Full name<br/> - Contains photograph<br/> - Contains biometric template<br/> - Includes digital information<br/> - Includes physical security features<br/> - Unexpired ||
 | US Military dependent ID card | Superior | - Issuing source confirmed claimed identity by following written procedures<br/> - Issuing source visually identified applicant<br/> - Issuing process ensured it was delivered into possession of the person<br/> - Contains at least one reference number<br/> - Full name<br/> - Contains photograph<br/> - Contains biometric template<br/> - Includes digital information<br/> - Includes physical security features<br/> - Unexpired ||
@@ -35,7 +35,6 @@ Table 2 provides examples of evidence from each category of strength defined in 
 | School ID card w/ photograph | Weak or Unacceptable | - No way to prove issuing source did or did not perform identity proofing, as there is no U.S. standard for issuing school IDs<br/> - May contain at least one reference number<br/> - Full name<br/> - Contains photograph |
 | Voter's registration card | Weak or Unacceptable | - Issuing source did not perform identity proofing<br/> - Issuing process means it can be reasonably assumed it was delivered to the person<br/> - Contains at least one reference number |
 | School record or report | Weak or Unacceptable | - Includes name and student ID number, but no identity proofing required and generally no photograph/biometric provided |
-| Alien Registration Card (Form I-551) |  | - |
 
 **Table 2: Evidence Strengths and Examples**
 
