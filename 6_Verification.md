@@ -7,7 +7,7 @@ The following table presents the verification methods that should be considered 
 | **Strength** | **Method** | **Description** |
 | --- | --- | --- |
 | Superior | Biometric Verification | Comparison against strongest piece of evidence, remote or in-person |
-| Strong | Biometric or Physical Verification | Physical comparison to photograph or biometric comparison against strongest piece of evidence, remote or in-person |
+| Strong | Biometric or Physical Verification | Physical comparison to photograph, or biometric comparison, against strongest piece of evidence, remote or in-person |
 | Fair | Biometric, Physical or Knowledge-Based Verification | Biometric comparison against evidence or physical comparison against strongest piece of evidence, remote or in-person |
 
 **Table 4: Verification Methods and Strengths**
