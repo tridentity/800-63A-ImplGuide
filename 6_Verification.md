@@ -94,5 +94,3 @@ If the applicant fails to return or fails to complete KBV upon return, KBV shoul
 Agencies may also require applicants to confirm their address, as outlined in SP800-63A. This can be done in the form of an enrollment code sent by the agency, intended for the applicant to receive at their address of record. Successful provision of the correct code by the applicant to the agency serves to confirm the address provided by the applicant: The address binds the identity to the applicant’s record.
 
 An example is a scannable image or barcode that is unique to the enrollment, mailed to the applicant’s address of record. Successful scanning and verification of this image or barcode by a mobile application provided in the agency’s workflow can be used for address confirmation.
-
-For 
