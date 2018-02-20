@@ -39,10 +39,4 @@ It is also important to make the distinction between equipment and knowledge tha
 
 ## Validation Strength
 
-When validating - agencies must do so consistent with the level of strength appropriate based on the strengh of the evidence. For example, a piece of evidence characterized as being "strong" evidence must be validated at the same level of strength. NIST SP 800-63A provides requirements at each strength level in Table 5-2; the following diagram provides a visual depiction of the decision process through which these requirements should be considered while determining the strength of evidence.
-
-![Figure 1: Evidence Validation Process](media/workflow-6-evidence-validation.png)
-
-**Figure 1:** Evidence Validation Process
-
-Answering the questions starting from the top left of the diagram, the validation process can yield the level of strength for any given type of evidence that can be used by the agency.
+When validating - agencies must do so consistent with the level of strength appropriate based on the strengh of the evidence. For example, a piece of evidence characterized as being "strong" evidence must be validated at the same level of strength. NIST SP 800-63A provides requirements at each strength level in Table 5-2.
