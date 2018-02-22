@@ -7,8 +7,8 @@ The following table presents the verification methods that should be considered 
 | **Strength** | **Method** | **Description** |
 | --- | --- | --- |
 | Superior | Biometric Verification | Comparison against strongest piece of evidence, remote or in-person |
-| Strong | In-Person Physical Verification | Physical comparison to photograph against strongest piece of evidence |
-| Strong | Remote Physical Verification | Physical comparison to photograph against strongest piece of evidence |
+| Strong | In-Person Physical Verification | Physical comparison to photograph against strongest piece of evidence done in person: Operator compares submitted evidence with applicant in-person |
+| Strong | Remote Physical Verification | Physical comparison to photograph against strongest piece of evidence done remotely: Operator compares submitted evidence with applicant via remote video or remotely submitted image |
 | Fair | Knowledge-Based Verification | Comparison of challenge response provided by applicant against known information, remote or in-person |
 
 **Table 4: Verification Methods and Strengths**
