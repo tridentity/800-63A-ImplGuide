@@ -43,4 +43,3 @@ The degree of assurance that can be taken from the Activity History process is l
 **Table 9:** Identity History Requirements at Assurance Levels
 
 Thresholds on the length of identity history for applicants should be established based on an assessment of risk by the agency. 
-The property of activity history can be assessed across four categories of increasing levels of strength:
