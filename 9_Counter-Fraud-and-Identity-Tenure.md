@@ -32,11 +32,15 @@ Activity events may be collated across multiple evidence categories into a singl
 
 Accordingly, the Activity Event relates to an interaction between the Claimed Identity and a source of Activity Events as either the Claimed Identity using the services of the source or as the source initiating an interaction with the Claimed Identity including issuing something to the applicant (claimant?). Any changes in Claimed Identity that have occurred over the time period being assessed for the Activity History must also be accounted for.
 
-The degree of assurance that can be taken from the Activity History process is linked to the quality of the data used, how easily it can be fabricated and how well its integrity is protected. Taking this into account when assessing the Activity History, agencies can expand their data sources and extend the history period where there is insufficient confidence in the available history of Activity Events.
+The degree of assurance that can be taken from the Activity History process is linked to the quality of the data used, how easily it can be fabricated and how well its integrity is protected. Taking this into account when assessing the Activity History, agencies can expand their data sources and extend the history period where there is insufficient confidence in the available history of Activity Events. The following table can be considered as a resource for determining identity history thresholds for different assurance levels.
+
+| **Assurance Level** | **Identity History** |
+| --- | --- |
+| IAL1 | No demonstration of an identity’s activity history. |
+| IAL2 | Claimed Identity demonstrates an activity history of at least 180 calendar days. |
+| IAL3 | Claimed Identity demonstrates an activity history of at least 360 calendar days. |
+
+**Table 9:** Identity History Requirements at Assurance Levels
+
+Thresholds on the length of identity history for applicants should be established based on an assessment of risk by the agency. 
 The property of activity history can be assessed across four categories of increasing levels of strength:
-
--	No demonstration of an identity’s activity history is required
--	Claimed Identity demonstrates an activity history of at least 180 calendar days
--	Claimed Identity demonstrates an activity history of at least 405 calendar days
--	Claimed Identity demonstrates an activity history of at least 1080 calendar days
-
