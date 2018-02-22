@@ -70,19 +70,27 @@ The quality and availability of the data used in the KBV process results in vary
     - Source used for KBV must be independent from applicant
     - Where source of KBV is the proofing organization method delivering to claimed identity and not applicant must be used
 
-In general the distinction between static and dynamic knowledge-based verification is made based on whether the security questions are stored by the agency for later access, or generated as applicable to the end user only using specific information, publicly available or otherwise. Static examples such as mother’s maiden name or previous address would not change over time. Two types of dynamic KBV should be considered for identity proofing, as listed in Table 1.
+In general the distinction between static and dynamic knowledge-based verification is made based on whether the security questions are stored by the agency for later access, or generated as applicable to the end user only using specific information, publicly available or otherwise. Static examples such as mother’s maiden name or previous address would not change over time. Two types of dynamic KBV should be considered for identity proofing, as listed in Table 5.
 
 | **Dynamic KBV Type** | **Description** |
 | --- | --- |
 | Quiz-based | In this approach, a series of questions is asked to the applicant from a pool of available information. The sequence of the questions is not static and is impacted by the applicant's answers. A scoring mechanism can be used to evaluate an applicant's performance and return a KBV verification outcome, based on the number and sequence of correct and incorrect answers and an applicant's pausing/resumption of the process. |
 | Micro Deposit | In this approach, one or more microdeposits are made into a bank account provided by the applicant and the amounts are used to verify the applicant's identity. Please note that in some cases it may not be possible to verify an applicant's identity using ACH (routing and account number) information without paying for third-party verification services and agencies looking to bind an applicant's identity to bank account information should consider this while evaluating a KBV option for verification. |
 
-**Table 1: Dynamic KBV Types**
+**Table 5: Dynamic KBV Types**
 
 Dynamic KBV should be considered over static for the purposes of identity proofing.
 
 ## Address Confirmation
 
-Agencies may also require applicants to confirm their address, as outlined in SP800-63A. This can be done in the form of an enrollment code sent by the agency, intended for the applicant to receive at their address of record. Successful provision of the correct code by the applicant to the agency serves to confirm the address provided by the applicant: The address binds the identity to the applicant’s record.
+Agencies may also require applicants to confirm their address, as outlined in SP800-63A for remote and in-person implementations wherein a proofing notice or an enrollment code can be sent to the applicant's address of record. Successful provision of the correct code by the applicant to the agency serves to confirm the address provided by the applicant: The address binds the identity to the applicant’s record. The following table includes different types of addresses that can be used for confirmation.
 
-An example is a scannable image or barcode that is unique to the enrollment, mailed to the applicant’s address of record. Successful scanning and verification of this image or barcode by a mobile application provided in the agency’s workflow can be used for address confirmation.
+| **Address Type** | **Notes** |
+| --- | --- |
+| Physical Mail | This is the address of record for an applicant that can be used by the agency to mail a notice of proofing or an enrollment code. While using an address for verification in KBV is vulnerable to attacks leveraging an array of public address registers, physical address use for notices or codes in proofing can be compromised if the applicant's mail is intercepted. |
+| Electronic Mail | This is a an email address provided by the applicant which can be used for notification or verification of enrollment codes. |
+| Phone | A phone number can be used as an address to confirm an applicant in scenarios such as automated phone calls that complete proofing upon responses to voice prompts, or the verification of enrollment codes by the applicant if the number and the phone verification are used in conjunction with a physical or electronic delivery mechanism. |
+
+**Table 6: Address Types Used for Confirmation**
+
+The enrollment or notification of proofing code can be a verifiable sequence of digits or numbers to be provided by the applicant when prompted, or a scannable image or barcode contained within the notice that can scanned by the mobile application used by the applicant as included in the agency's workflow.
