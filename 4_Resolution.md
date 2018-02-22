@@ -48,3 +48,10 @@ Depicted above, attributes from two sources are matched against each other, afte
 
 ## Knowledge Based Verification for Resolution
 If an agency chooses to start the identity proofing process with higher confidence, or in the event an identity cannot be resolved using automated matching algorithms or manual inspection by the agency staff, the agency may request the applicant participate in a KBV process. KBV is more commonly used in the verification step and a more detailed discussion of this process is provided in that section **[add link]**.
+
+## Biometrics for Resolution
+
+Biometric verification can also be used for identity resolution. Agencies can search the biometrics provided by an applicant against trusted data sources to obtain identity data for the applicant that can be matched against the applicant-provided identity data for a resolution.
+
+In applications where the agency enrolls biometrics for applicants, the biometric samples collected should automatically trigger open-set identification. Open-set identification is typically defined as the task to determine if someone is in a database and to find the record of the individual in the database. This “defensive” first-line measure performs de-duplication. In other words, the agency's database of identities is surveyed automatically to see if the applicant has an existing identity record. If the deduplication search returns a positive match, agencies should match the attributes in the existing identity and the applicant-provided information to determine and adjudicate any mismatches. This can be considered as another method to perform identity resolution, as it aims to reduce variability in the identity information that belongs to an appicant.
+
