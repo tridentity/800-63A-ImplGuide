@@ -29,7 +29,13 @@ It is important to note that a verification process wherein an agency collects f
 
 Agencies should follow the guidance of NIST Special Publication 800-63B, Section 5.2.3 for requirements on match accuracy, rate limiting, presentation attack detection (PAD) and template protection or revokability when implementing biometric verification systems for identity proofing. Presentation attacks are a matter of concern for unproctored collection use cases. Ongoing work, such as SOFA-B: Strength of Authentication for Biometrics, provides guidelines for the strength of biometric authentication systems as a balanced function of presentation attack detection abilities, biometric match accuracy and effort (to attack system).
 
-Agencies can capture biometrics in the form of fingerprints, face, iris images, etc. They can compare requirements with their options to identify which single or multi-modal biometric solution can best respond to their needs and implement the system accordingly. Agencies should also note that different biometric modalities provide varying levels of accuracy, presentation attack vulnerability and ease of collection. Existing literature offers deep insight into the trade-off between accuracy, convenience and other factors of biometric authentication. NIST and other authorities have also conducted and orchestrated standardized tests in order to evaluate performances of biometric algorithms developed by participating vendors. Agencies should use these resources as guidelines when considering the use of biometrics in their implementations. The following table outlines some considerations for different biometric modalities in verification.
+Agencies can capture biometrics in the form of fingerprints, face, iris images, etc. They can compare requirements with their options to identify which single or multi-modal biometric solution can best respond to their needs and implement the system accordingly. Agencies should also note that different biometric modalities provide varying levels of accuracy, presentation attack vulnerability and ease of collection. Existing literature offers deep insight into the trade-off between accuracy, convenience and other factors of biometric authentication. NIST and other authorities have also conducted and orchestrated standardized tests in order to evaluate performances of biometric algorithms developed by participating vendors. Agencies should use these resources as guidelines when considering the use of biometrics in their implementations. The following table outlines some considerations for some of the high-accuracy biometric modalities in verification.
+
+| **Biometric Modality** | **Verification Considerations**|
+| --- | --- |
+| Fingerprint | Commonly used in many applications, including authentication integration with chip cards. Fingerprint readers are widely available, including those that are interoperable with systems used for generating typical chip card identity evidence examples that agencies can choose to use. |
+| Iris | Not as broadly available as fingerprints, but also very accurate. Specialized capture devices needed and image acquisition issues have largely been mitigated in the current state of the art. Device costs have also come down significantly, though the ability to find a trusted background source that can match an applicant's iris biometrics to their own reference gallery is limited. |
+| Face | While still quite accurate, face biometrics is far more vulnerable to capture issues such as ambient lighting conditions. On the flipside, a photograph being the most ubiquitous component of identity evidence, opportunities to match an applicant's face biometrics against a trusted background source are abundant. |
 
 **Table 5:** Biometric Modalities and Verification Considerations
 
@@ -74,14 +80,14 @@ The quality and availability of the data used in the KBV process results in vary
     - Source used for KBV must be independent from applicant
     - Where source of KBV is the proofing organization method delivering to claimed identity and not applicant must be used
 
-In general the distinction between static and dynamic knowledge-based verification is made based on whether the security questions are stored by the agency for later access, or generated as applicable to the end user only using specific information, publicly available or otherwise. Static examples such as mother’s maiden name or previous address would not change over time. Two types of dynamic KBV should be considered for identity proofing, as listed in Table 5.
+In general the distinction between static and dynamic knowledge-based verification is made based on whether the security questions are stored by the agency for later access, or generated as applicable to the end user only using specific information, publicly available or otherwise. Static examples such as mother’s maiden name or previous address would not change over time. Two types of dynamic KBV should be considered for identity proofing, as listed in Table 6.
 
 | **Dynamic KBV Type** | **Description** |
 | --- | --- |
 | Quiz-based | In this approach, a series of questions is asked to the applicant from a pool of available information. The sequence of the questions is not static and is impacted by the applicant's answers. A scoring mechanism can be used to evaluate an applicant's performance and return a KBV verification outcome, based on the number and sequence of correct and incorrect answers and an applicant's pausing/resumption of the process. |
 | Micro Deposit | In this approach, one or more microdeposits are made into a bank account provided by the applicant and the amounts are used to verify the applicant's identity. Please note that in some cases it may not be possible to verify an applicant's identity using ACH (routing and account number) information without paying for third-party verification services and agencies looking to bind an applicant's identity to bank account information should consider this while evaluating a KBV option for verification. |
 
-**Table 5: Dynamic KBV Types**
+**Table 6: Dynamic KBV Types**
 
 Dynamic KBV should be considered over static for the purposes of identity proofing.
 
@@ -95,6 +101,6 @@ Agencies may also require applicants to confirm their address, as outlined in SP
 | Electronic Mail | This is a an email address provided by the applicant which can be used for notification or verification of enrollment codes. |
 | Phone | A phone number can be used as an address to confirm an applicant in scenarios such as automated phone calls that complete proofing upon responses to voice prompts, or the verification of enrollment codes by the applicant if the number and the phone verification are used in conjunction with a physical or electronic delivery mechanism. |
 
-**Table 6: Address Types Used for Confirmation**
+**Table 7: Address Types Used for Confirmation**
 
 The enrollment or notification of proofing code can be a verifiable sequence of digits or numbers to be provided by the applicant when prompted, or a scannable image or barcode contained within the notice that can scanned by the mobile application used by the applicant as included in the agency's workflow.
