@@ -43,7 +43,11 @@ Requirements and differences between collection methods such as in-person, virtu
 
 ### In-person Biometric Verification
 
+For in-person biometric verification, agencies should capture the applicant's biometrics in kiosks or stations where the submission process can be proctored. While biometric capture devices typically check biometric quality in real time and state if a capture needs to be repeated, operators trained on successful capture of biometrics should nevertheless be ready to guide applicants through the process. The verification is then done by matching the supplied biometrics with the biometrics in trusted data sources, such as external agencies with which the agency can interface, or with the biometrics stored securely on the identity evidence. A match/non-match outcome determines if the claimant and the identity evidence match and proofing is successful.
+
 ### Remote Biometric Verification
+
+Agencies can also allow applicants to submit biometrics by remote means, such as over a secure connection with a live operator, or using a secure mobile application that collects the biometrics which can then be matched against biometrics secured in trusted data sources.
 
 For an IAL3 system, detection mechanisms should be in place to ensure security of the system against presentation attacks if collection is done remotely. Requirements for virtual in-person collection mitigate the risk of presentation attacks for an IAL3 system. Requirements in 800-63A should be considered for IAL2 systems.
 
