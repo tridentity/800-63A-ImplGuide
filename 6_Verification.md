@@ -55,6 +55,14 @@ For an IAL3 system, detection mechanisms should be in place to ensure security o
 
 Agencies can perform physical verification of an applicant by comparing the applicant to a photograph or against the strongest piece of evidence provided to support the claimed identity. As noted in 63A, guidance in [NIST Special Publication 800-63B, Section 5.2.3](https://pages.nist.gov/800-63-3/sp800-63b.html#biometric_use) should be followed for the requirements for physical verification. As mentioned earlier, biometric verification that is done locally (i.e. biometrics captured on device matched against biometrics stored on device) or biometric verification done by matching biometrics provided by applicant against biometrics present in evidence provided by the applicant should be considered of no greater strength than that of physical verification of applicant against evidence. Physical verification can be done in person or via a shared video session with the applicant, or by means of a remote submission of evidence by the applicant.
 
+### In-Person Physical Verification
+
+For in-person physical verification, much like biometric verification, the agency should verify the applicant physically in person in kiosks or stations that offer direct interactive access to operators. The operator can then compare the applicant's appearance to the images in the identity evidence provided by the applicant and determine a verification outcome.
+
+### Remote Physical Verification
+
+Agencies seeking remote physical verification 
+
 ## KBV
 
 This technique presents the applicant with a series of questions to help distinguish the applicant from other known identities. While it is preferred that information in KBV systems are obtained from publicly available databases to counter fraud attempts due to leakage of sensitive, non-public information from compromised data sources, this also means that KBV cannot properly secure the identity proofing process against attackers that have compiled all publicly available information about an applicant. That is why KBV is generally designated at a level of fair in 63A, as specified in [Section 5.3.2](https://pages.nist.gov/800-63-3/sp800-63a.html#sec5). 
