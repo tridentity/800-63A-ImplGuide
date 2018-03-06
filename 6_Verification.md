@@ -61,7 +61,7 @@ For in-person physical verification, much like biometric verification, the agenc
 
 ### Remote Physical Verification
 
-Agencies seeking remote physical verification 
+[Text]
 
 ## KBV
 
